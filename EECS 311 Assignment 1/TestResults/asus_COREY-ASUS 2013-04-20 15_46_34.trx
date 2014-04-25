@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="55ca482b-ea28-4a9a-b464-c9b6770b1e44" name="asus@COREY-ASUS 2013-04-20 15:46:34" runUser="COREY-ASUS\asus" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local Test Run" id="3a991a10-770d-48f2-813a-8bc52276207a">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="asus_COREY-ASUS 2013-04-20 15_46_34">
+      <DeploymentItem filename="D:\Documents\Visual Studio 2012\EECS 311 Assignment 1\Assignment 1\bin\Debug\Assignment 1.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-04-20T15:46:34.2863912-05:00" queuing="2013-04-20T15:46:35.1734419-05:00" start="2013-04-20T15:46:35.2544466-05:00" finish="2013-04-20T15:46:45.7660478-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="22" executed="22" passed="7" error="0" failed="15" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ConstructorCreatesNonFullQueueTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="1fd90ceb-f0d0-1e68-b554-ad1d4ba25e72">
+      <Execution id="dc134330-a076-49b5-8825-442eec9a6db0" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.ArrayQueueTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConstructorCreatesNonFullQueueTest" />
+    </UnitTest>
+    <UnitTest name="ConstructorCreatesEmptyQueueTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="1cb0a1e2-2261-0d1a-ef0f-bcef8b0ea15f">
+      <Execution id="fe8f7ab7-adbc-4526-ab98-154a0527036b" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.ArrayQueueTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConstructorCreatesEmptyQueueTest" />
+    </UnitTest>
+    <UnitTest name="DequeueOnEmptyQueueThrowsQueueEmptyExceptionTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="72df603b-478e-691e-c9b9-cdc0bacfe212">
+      <Execution id="35773b6a-b19d-4ef7-94d0-835872238eca" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.LinkedListQueueTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DequeueOnEmptyQueueThrowsQueueEmptyExceptionTest" />
+    </UnitTest>
+    <UnitTest name="ConstructorCreatesEmptyQueueTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="13d9bdf6-60d6-7932-e7f8-0dff2188658f">
+      <Execution id="4e34c959-c797-4797-a1c8-7a2b39b5045c" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.DequeTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConstructorCreatesEmptyQueueTest" />
+    </UnitTest>
+    <UnitTest name="NonEmptyQueueWrittenFromFrontReadsNotEmptyTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="a8009935-515f-8ff9-6f0b-05a4894bf174">
+      <Execution id="bf303121-c8f3-47f5-a51c-d03951e40e11" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.DequeTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NonEmptyQueueWrittenFromFrontReadsNotEmptyTest" />
+    </UnitTest>
+    <UnitTest name="EnqueueToFullQueueThrowsQueueFullExceptionTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="7c46bf1f-4cc7-0ba7-67e8-52f5cd3c9713">
+      <Execution id="1b6f4b52-4243-46c1-a654-ff8cebd876ea" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.ArrayQueueTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EnqueueToFullQueueThrowsQueueFullExceptionTest" />
+    </UnitTest>
+    <UnitTest name="DataOrderPreservedTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="373800ba-b828-3141-13f3-14ad92fca915">
+      <Execution id="ed8df3e8-ce41-4cc6-b820-314398803d93" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.LinkedListQueueTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DataOrderPreservedTest" />
+    </UnitTest>
+    <UnitTest name="NonEmptyQueueReadsNotEmptyTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="091f89d3-0ed1-30d7-5c4b-fdd3fa0faa90">
+      <Execution id="f2669ec6-04b1-4af9-96fe-2ecf190a322b" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.LinkedListQueueTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NonEmptyQueueReadsNotEmptyTest" />
+    </UnitTest>
+    <UnitTest name="DataOrderPreservedTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="f013084a-d4ea-a9f8-357a-4047b1176ab2">
+      <Execution id="dd294fa6-c0e9-495f-8553-50848dfb4769" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.ArrayQueueTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DataOrderPreservedTest" />
+    </UnitTest>
+    <UnitTest name="RemoveFrontOnEmptyQueueThrowsQueueEmptyExceptionTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="03a1b3a6-dd92-af83-792a-b3caa1cfc64e">
+      <Execution id="75ff168c-c1fe-42d9-8cf5-80daa501d272" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.DequeTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RemoveFrontOnEmptyQueueThrowsQueueEmptyExceptionTest" />
+    </UnitTest>
+    <UnitTest name="DequeueOnEmptyQueueThrowsQueueEmptyExceptionTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="282e02e9-49c3-e1d4-f2ea-59cee629a781">
+      <Execution id="4e1299dd-a66d-4928-999e-8b05211a9789" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.ArrayQueueTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DequeueOnEmptyQueueThrowsQueueEmptyExceptionTest" />
+    </UnitTest>
+    <UnitTest name="ConstructorCreatesNonFullQueueTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="3d821c1f-4535-cc22-0441-2178d0438ec5">
+      <Execution id="47339774-35ce-4723-9ca8-e93da216526c" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.LinkedListQueueTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConstructorCreatesNonFullQueueTest" />
+    </UnitTest>
+    <UnitTest name="CountTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="97365ef3-436d-9c9d-7432-5e36bdfa5b17">
+      <Execution id="ff3c9a1d-eac3-4b8b-8f0f-e21848409be9" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.LinkedListQueueTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CountTest" />
+    </UnitTest>
+    <UnitTest name="NonEmptyQueueReadsNotEmptyTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="19cca519-f5a5-3da9-b116-a67ee263cbb4">
+      <Execution id="dbee1ad3-898a-4e8f-bf73-40bd1dec9678" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.ArrayQueueTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NonEmptyQueueReadsNotEmptyTest" />
+    </UnitTest>
+    <UnitTest name="ConstructorCreatesEmptyQueueTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="fd6c20eb-525d-6a10-f7aa-e03ceedfe16f">
+      <Execution id="867fac02-d255-4409-a23f-82284299fc08" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.LinkedListQueueTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConstructorCreatesEmptyQueueTest" />
+    </UnitTest>
+    <UnitTest name="NonEmptyQueueReadsNotEmptyTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="49e4a240-89e9-7d60-9a13-7ab7ec646d86">
+      <Execution id="ca0d410c-de41-4079-b931-239ad2f12744" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.DequeTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NonEmptyQueueReadsNotEmptyTest" />
+    </UnitTest>
+    <UnitTest name="DataOrderPreservedWrittenEndwardTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="066e5acd-d732-0380-d030-80aabd1a46ae">
+      <Execution id="87a12bce-ac4d-4d12-abf7-d8df4b7c1139" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.DequeTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DataOrderPreservedWrittenEndwardTest" />
+    </UnitTest>
+    <UnitTest name="RemoveEndOnEmptyQueueThrowsQueueEmptyExceptionTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="7d7af601-d5b8-8473-4e8c-1728efc4ea22">
+      <Execution id="849e60bb-9e52-4a6e-84a1-0f750227651c" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.DequeTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RemoveEndOnEmptyQueueThrowsQueueEmptyExceptionTest" />
+    </UnitTest>
+    <UnitTest name="QueueEventuallyFillsText" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="db91ed9e-0902-7231-b42b-88381c85adcd">
+      <Execution id="f60f2fc3-0d87-4f3a-b8ee-c7d7ed449873" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.ArrayQueueTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="QueueEventuallyFillsText" />
+    </UnitTest>
+    <UnitTest name="DataOrderPreservedTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="cbfdef17-e7f3-e7a4-92ed-bd0caaf2671c">
+      <Execution id="2779d88c-589f-4402-8331-178998106b74" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.DequeTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DataOrderPreservedTest" />
+    </UnitTest>
+    <UnitTest name="CountTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="043f3c5a-7887-abdc-d249-173d4b7b8591">
+      <Execution id="2373d09a-4caa-4646-8d27-a194f221d299" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.ArrayQueueTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CountTest" />
+    </UnitTest>
+    <UnitTest name="CountTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="10d73257-6859-e940-a43d-85dc5f42184c">
+      <Execution id="2e16be47-ea20-4f3f-a41c-e279cb73a09e" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.DequeTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CountTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="13d9bdf6-60d6-7932-e7f8-0dff2188658f" executionId="4e34c959-c797-4797-a1c8-7a2b39b5045c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="49e4a240-89e9-7d60-9a13-7ab7ec646d86" executionId="ca0d410c-de41-4079-b931-239ad2f12744" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="10d73257-6859-e940-a43d-85dc5f42184c" executionId="2e16be47-ea20-4f3f-a41c-e279cb73a09e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cbfdef17-e7f3-e7a4-92ed-bd0caaf2671c" executionId="2779d88c-589f-4402-8331-178998106b74" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="03a1b3a6-dd92-af83-792a-b3caa1cfc64e" executionId="75ff168c-c1fe-42d9-8cf5-80daa501d272" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a8009935-515f-8ff9-6f0b-05a4894bf174" executionId="bf303121-c8f3-47f5-a51c-d03951e40e11" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="066e5acd-d732-0380-d030-80aabd1a46ae" executionId="87a12bce-ac4d-4d12-abf7-d8df4b7c1139" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7d7af601-d5b8-8473-4e8c-1728efc4ea22" executionId="849e60bb-9e52-4a6e-84a1-0f750227651c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fd6c20eb-525d-6a10-f7aa-e03ceedfe16f" executionId="867fac02-d255-4409-a23f-82284299fc08" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3d821c1f-4535-cc22-0441-2178d0438ec5" executionId="47339774-35ce-4723-9ca8-e93da216526c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="091f89d3-0ed1-30d7-5c4b-fdd3fa0faa90" executionId="f2669ec6-04b1-4af9-96fe-2ecf190a322b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="97365ef3-436d-9c9d-7432-5e36bdfa5b17" executionId="ff3c9a1d-eac3-4b8b-8f0f-e21848409be9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="373800ba-b828-3141-13f3-14ad92fca915" executionId="ed8df3e8-ce41-4cc6-b820-314398803d93" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="72df603b-478e-691e-c9b9-cdc0bacfe212" executionId="35773b6a-b19d-4ef7-94d0-835872238eca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1cb0a1e2-2261-0d1a-ef0f-bcef8b0ea15f" executionId="fe8f7ab7-adbc-4526-ab98-154a0527036b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1fd90ceb-f0d0-1e68-b554-ad1d4ba25e72" executionId="dc134330-a076-49b5-8825-442eec9a6db0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="db91ed9e-0902-7231-b42b-88381c85adcd" executionId="f60f2fc3-0d87-4f3a-b8ee-c7d7ed449873" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="19cca519-f5a5-3da9-b116-a67ee263cbb4" executionId="dbee1ad3-898a-4e8f-bf73-40bd1dec9678" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7c46bf1f-4cc7-0ba7-67e8-52f5cd3c9713" executionId="1b6f4b52-4243-46c1-a654-ff8cebd876ea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="043f3c5a-7887-abdc-d249-173d4b7b8591" executionId="2373d09a-4caa-4646-8d27-a194f221d299" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f013084a-d4ea-a9f8-357a-4047b1176ab2" executionId="dd294fa6-c0e9-495f-8553-50848dfb4769" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="282e02e9-49c3-e1d4-f2ea-59cee629a781" executionId="4e1299dd-a66d-4928-999e-8b05211a9789" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4e34c959-c797-4797-a1c8-7a2b39b5045c" testId="13d9bdf6-60d6-7932-e7f8-0dff2188658f" testName="ConstructorCreatesEmptyQueueTest" computerName="COREY-ASUS" duration="00:00:02.3672505" startTime="2013-04-20T15:46:35.2854483-05:00" endTime="2013-04-20T15:46:38.6976435-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4e34c959-c797-4797-a1c8-7a2b39b5045c">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method QueueTests.DequeTest.ConstructorCreatesEmptyQueueTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Assignment_1.Deque.get_IsEmpty() in D:\Documents\Visual Studio 2012\EECS 311 Assignment 1\Assignment 1\Deque.cs:line 74
+   at QueueTests.DequeTest.ConstructorCreatesEmptyQueueTest() in D:\Documents\Visual Studio 2012\EECS 311 Assignment 1\QueueTests\DequeTest.cs:line 68
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ca0d410c-de41-4079-b931-239ad2f12744" testId="49e4a240-89e9-7d60-9a13-7ab7ec646d86" testName="NonEmptyQueueReadsNotEmptyTest" computerName="COREY-ASUS" duration="00:00:00.2155855" startTime="2013-04-20T15:46:38.7286453-05:00" endTime="2013-04-20T15:46:38.9486578-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ca0d410c-de41-4079-b931-239ad2f12744">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method QueueTests.DequeTest.NonEmptyQueueReadsNotEmptyTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Assignment_1.Deque.AddEnd(Object o) in D:\Documents\Visual Studio 2012\EECS 311 Assignment 1\Assignment 1\Deque.cs:line 41
+   at QueueTests.DequeTest.NonEmptyQueueReadsNotEmptyTest() in D:\Documents\Visual Studio 2012\EECS 311 Assignment 1\QueueTests\DequeTest.cs:line 75
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2e16be47-ea20-4f3f-a41c-e279cb73a09e" testId="10d73257-6859-e940-a43d-85dc5f42184c" testName="CountTest" computerName="COREY-ASUS" duration="00:00:00.1766337" startTime="2013-04-20T15:46:38.9526581-05:00" endTime="2013-04-20T15:46:39.1346685-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2e16be47-ea20-4f3f-a41c-e279cb73a09e">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method QueueTests.DequeTest.CountTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Assignment_1.Deque.get_Count() in D:\Documents\Visual Studio 2012\EECS 311 Assignment 1\Assignment 1\Deque.cs:line 62
+   at QueueTests.DequeTest.CountTest() in D:\Documents\Visual Studio 2012\EECS 311 Assignment 1\QueueTests\DequeTest.cs:line 92
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2779d88c-589f-4402-8331-178998106b74" testId="cbfdef17-e7f3-e7a4-92ed-bd0caaf2671c" testName="DataOrderPreservedTest" computerName="COREY-ASUS" duration="00:00:00.2764560" startTime="2013-04-20T15:46:39.1846713-05:00" endTime="2013-04-20T15:46:39.4646874-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2779d88c-589f-4402-8331-178998106b74">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method QueueTests.DequeTest.DataOrderPreservedTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Assignment_1.Deque.AddEnd(Object o) in D:\Documents\Visual Studio 2012\EECS 311 Assignment 1\Assignment 1\Deque.cs:line 41
+   at QueueTests.DequeTest.DataOrderPreservedTest() in D:\Documents\Visual Studio 2012\EECS 311 Assignment 1\QueueTests\DequeTest.cs:line 108
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="75ff168c-c1fe-42d9-8cf5-80daa501d272" testId="03a1b3a6-dd92-af83-792a-b3caa1cfc64e" testName="RemoveFrontOnEmptyQueueThrowsQueueEmptyExceptionTest" computerName="COREY-ASUS" duration="00:00:00.4836590" startTime="2013-04-20T15:46:39.4866886-05:00" endTime="2013-04-20T15:46:39.9747165-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="75ff168c-c1fe-42d9-8cf5-80daa501d272">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method QueueTests.DequeTest.RemoveFrontOnEmptyQueueThrowsQueueEmptyExceptionTest threw exception System.NotImplementedException, but exception Assignment_1.QueueEmptyException was expected. Exception message: System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Assignment_1.Deque.RemoveFront() in D:\Documents\Visual Studio 2012\EECS 311 Assignment 1\Assignment 1\Deque.cs:line 31
+   at QueueTests.DequeTest.RemoveFrontOnEmptyQueueThrowsQueueEmptyExceptionTest() in D:\Documents\Visual Studio 2012\EECS 311 Assignment 1\QueueTests\DequeTest.cs:line 123
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bf303121-c8f3-47f5-a51c-d03951e40e11" testId="a8009935-515f-8ff9-6f0b-05a4894bf174" testName="NonEmptyQueueWrittenFromFrontReadsNotEmptyTest" computerName="COREY-ASUS" duration="00:00:00.3240500" startTime="2013-04-20T15:46:39.9787168-05:00" endTime="2013-04-20T15:46:40.3067355-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bf303121-c8f3-47f5-a51c-d03951e40e11">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method QueueTests.DequeTest.NonEmptyQueueWrittenFromFrontReadsNotEmptyTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Assignment_1.Deque.AddFront(Object o) in D:\Documents\Visual Studio 2012\EECS 311 Assignment 1\Assignment 1\Deque.cs:line 21
+   at QueueTests.DequeTest.NonEmptyQueueWrittenFromFrontReadsNotEmptyTest() in D:\Documents\Visual Studio 2012\EECS 311 Assignment 1\QueueTests\DequeTest.cs:line 131
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="87a12bce-ac4d-4d12-abf7-d8df4b7c1139" testId="066e5acd-d732-0380-d030-80aabd1a46ae" testName="DataOrderPreservedWrittenEndwardTest" computerName="COREY-ASUS" duration="00:00:00.4660264" startTime="2013-04-20T15:46:40.3107358-05:00" endTime="2013-04-20T15:46:40.7807626-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="87a12bce-ac4d-4d12-abf7-d8df4b7c1139">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method QueueTests.DequeTest.DataOrderPreservedWrittenEndwardTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Assignment_1.Deque.AddFront(Object o) in D:\Documents\Visual Studio 2012\EECS 311 Assignment 1\Assignment 1\Deque.cs:line 21
+   at QueueTests.DequeTest.DataOrderPreservedWrittenEndwardTest() in D:\Documents\Visual Studio 2012\EECS 311 Assignment 1\QueueTests\DequeTest.cs:line 150
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="849e60bb-9e52-4a6e-84a1-0f750227651c" testId="7d7af601-d5b8-8473-4e8c-1728efc4ea22" testName="RemoveEndOnEmptyQueueThrowsQueueEmptyExceptionTest" computerName="COREY-ASUS" duration="00:00:00.4440210" startTime="2013-04-20T15:46:40.7857629-05:00" endTime="2013-04-20T15:46:41.2337886-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="849e60bb-9e52-4a6e-84a1-0f750227651c">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method QueueTests.DequeTest.RemoveEndOnEmptyQueueThrowsQueueEmptyExceptionTest threw exception System.NotImplementedException, but exception Assignment_1.QueueEmptyException was expected. Exception message: System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Assignment_1.Deque.RemoveEnd() in D:\Documents\Visual Studio 2012\EECS 311 Assignment 1\Assignment 1\Deque.cs:line 51
+   at QueueTests.DequeTest.RemoveEndOnEmptyQueueThrowsQueueEmptyExceptionTest() in D:\Documents\Visual Studio 2012\EECS 311 Assignment 1\QueueTests\DequeTest.cs:line 165
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="867fac02-d255-4409-a23f-82284299fc08" testId="fd6c20eb-525d-6a10-f7aa-e03ceedfe16f" testName="ConstructorCreatesEmptyQueueTest" computerName="COREY-ASUS" duration="00:00:00.2747109" startTime="2013-04-20T15:46:41.2377888-05:00" endTime="2013-04-20T15:46:41.5168047-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="867fac02-d255-4409-a23f-82284299fc08">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method QueueTests.LinkedListQueueTest.ConstructorCreatesEmptyQueueTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Assignment_1.LinkedListQueue.get_Count() in D:\Documents\Visual Studio 2012\EECS 311 Assignment 1\Assignment 1\LinkedListQueue.cs:line 41
+   at Assignment_1.Queue.get_IsEmpty() in D:\Documents\Visual Studio 2012\EECS 311 Assignment 1\Assignment 1\Queue.cs:line 41
+   at QueueTests.LinkedListQueueTest.ConstructorCreatesEmptyQueueTest() in D:\Documents\Visual Studio 2012\EECS 311 Assignment 1\QueueTests\LinkedListQueueTest.cs:line 69
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="47339774-35ce-4723-9ca8-e93da216526c" testId="3d821c1f-4535-cc22-0441-2178d0438ec5" testName="ConstructorCreatesNonFullQueueTest" computerName="COREY-ASUS" duration="00:00:00.4589696" startTime="2013-04-20T15:46:41.5208050-05:00" endTime="2013-04-20T15:46:41.9828314-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="47339774-35ce-4723-9ca8-e93da216526c">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method QueueTests.LinkedListQueueTest.ConstructorCreatesNonFullQueueTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Assignment_1.LinkedListQueue.get_IsFull() in D:\Documents\Visual Studio 2012\EECS 311 Assignment 1\Assignment 1\LinkedListQueue.cs:line 55
+   at QueueTests.LinkedListQueueTest.ConstructorCreatesNonFullQueueTest() in D:\Documents\Visual Studio 2012\EECS 311 Assignment 1\QueueTests\LinkedListQueueTest.cs:line 76
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f2669ec6-04b1-4af9-96fe-2ecf190a322b" testId="091f89d3-0ed1-30d7-5c4b-fdd3fa0faa90" testName="NonEmptyQueueReadsNotEmptyTest" computerName="COREY-ASUS" duration="00:00:00.5183650" startTime="2013-04-20T15:46:41.9878317-05:00" endTime="2013-04-20T15:46:42.5098615-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f2669ec6-04b1-4af9-96fe-2ecf190a322b">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method QueueTests.LinkedListQueueTest.NonEmptyQueueReadsNotEmptyTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Assignment_1.LinkedListQueue.Enqueue(Object o) in D:\Documents\Visual Studio 2012\EECS 311 Assignment 1\Assignment 1\LinkedListQueue.cs:line 20
+   at QueueTests.LinkedListQueueTest.NonEmptyQueueReadsNotEmptyTest() in D:\Documents\Visual Studio 2012\EECS 311 Assignment 1\QueueTests\LinkedListQueueTest.cs:line 83
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ff3c9a1d-eac3-4b8b-8f0f-e21848409be9" testId="97365ef3-436d-9c9d-7432-5e36bdfa5b17" testName="CountTest" computerName="COREY-ASUS" duration="00:00:00.5070008" startTime="2013-04-20T15:46:42.5228623-05:00" endTime="2013-04-20T15:46:43.0338915-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ff3c9a1d-eac3-4b8b-8f0f-e21848409be9">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method QueueTests.LinkedListQueueTest.CountTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Assignment_1.LinkedListQueue.get_Count() in D:\Documents\Visual Studio 2012\EECS 311 Assignment 1\Assignment 1\LinkedListQueue.cs:line 41
+   at QueueTests.LinkedListQueueTest.CountTest() in D:\Documents\Visual Studio 2012\EECS 311 Assignment 1\QueueTests\LinkedListQueueTest.cs:line 100
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ed8df3e8-ce41-4cc6-b820-314398803d93" testId="373800ba-b828-3141-13f3-14ad92fca915" testName="DataOrderPreservedTest" computerName="COREY-ASUS" duration="00:00:00.4466987" startTime="2013-04-20T15:46:43.0388918-05:00" endTime="2013-04-20T15:46:43.4889175-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ed8df3e8-ce41-4cc6-b820-314398803d93">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method QueueTests.LinkedListQueueTest.DataOrderPreservedTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Assignment_1.LinkedListQueue.Enqueue(Object o) in D:\Documents\Visual Studio 2012\EECS 311 Assignment 1\Assignment 1\LinkedListQueue.cs:line 20
+   at QueueTests.LinkedListQueueTest.DataOrderPreservedTest() in D:\Documents\Visual Studio 2012\EECS 311 Assignment 1\QueueTests\LinkedListQueueTest.cs:line 116
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="35773b6a-b19d-4ef7-94d0-835872238eca" testId="72df603b-478e-691e-c9b9-cdc0bacfe212" testName="DequeueOnEmptyQueueThrowsQueueEmptyExceptionTest" computerName="COREY-ASUS" duration="00:00:00.4070375" startTime="2013-04-20T15:46:43.4929178-05:00" endTime="2013-04-20T15:46:43.9039413-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="35773b6a-b19d-4ef7-94d0-835872238eca">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method QueueTests.LinkedListQueueTest.DequeueOnEmptyQueueThrowsQueueEmptyExceptionTest threw exception System.NotImplementedException, but exception Assignment_1.QueueEmptyException was expected. Exception message: System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at Assignment_1.LinkedListQueue.Dequeue() in D:\Documents\Visual Studio 2012\EECS 311 Assignment 1\Assignment 1\LinkedListQueue.cs:line 30
+   at QueueTests.LinkedListQueueTest.DequeueOnEmptyQueueThrowsQueueEmptyExceptionTest() in D:\Documents\Visual Studio 2012\EECS 311 Assignment 1\QueueTests\LinkedListQueueTest.cs:line 131
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fe8f7ab7-adbc-4526-ab98-154a0527036b" testId="1cb0a1e2-2261-0d1a-ef0f-bcef8b0ea15f" testName="ConstructorCreatesEmptyQueueTest" computerName="COREY-ASUS" duration="00:00:00.0006019" startTime="2013-04-20T15:46:43.9089416-05:00" endTime="2013-04-20T15:46:43.9129418-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fe8f7ab7-adbc-4526-ab98-154a0527036b">
+    </UnitTestResult>
+    <UnitTestResult executionId="dc134330-a076-49b5-8825-442eec9a6db0" testId="1fd90ceb-f0d0-1e68-b554-ad1d4ba25e72" testName="ConstructorCreatesNonFullQueueTest" computerName="COREY-ASUS" duration="00:00:00.0002530" startTime="2013-04-20T15:46:43.9169420-05:00" endTime="2013-04-20T15:46:43.9199422-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dc134330-a076-49b5-8825-442eec9a6db0">
+    </UnitTestResult>
+    <UnitTestResult executionId="f60f2fc3-0d87-4f3a-b8ee-c7d7ed449873" testId="db91ed9e-0902-7231-b42b-88381c85adcd" testName="QueueEventuallyFillsText" computerName="COREY-ASUS" duration="00:00:00.0004073" startTime="2013-04-20T15:46:43.9239424-05:00" endTime="2013-04-20T15:46:43.9269426-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f60f2fc3-0d87-4f3a-b8ee-c7d7ed449873">
+    </UnitTestResult>
+    <UnitTestResult executionId="dbee1ad3-898a-4e8f-bf73-40bd1dec9678" testId="19cca519-f5a5-3da9-b116-a67ee263cbb4" testName="NonEmptyQueueReadsNotEmptyTest" computerName="COREY-ASUS" duration="00:00:00.0002864" startTime="2013-04-20T15:46:43.9769455-05:00" endTime="2013-04-20T15:46:43.9809457-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dbee1ad3-898a-4e8f-bf73-40bd1dec9678">
+    </UnitTestResult>
+    <UnitTestResult executionId="1b6f4b52-4243-46c1-a654-ff8cebd876ea" testId="7c46bf1f-4cc7-0ba7-67e8-52f5cd3c9713" testName="EnqueueToFullQueueThrowsQueueFullExceptionTest" computerName="COREY-ASUS" duration="00:00:00.7670925" startTime="2013-04-20T15:46:43.9889461-05:00" endTime="2013-04-20T15:46:44.7599902-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1b6f4b52-4243-46c1-a654-ff8cebd876ea">
+    </UnitTestResult>
+    <UnitTestResult executionId="2373d09a-4caa-4646-8d27-a194f221d299" testId="043f3c5a-7887-abdc-d249-173d4b7b8591" testName="CountTest" computerName="COREY-ASUS" duration="00:00:00.0009316" startTime="2013-04-20T15:46:44.7649905-05:00" endTime="2013-04-20T15:46:44.7689908-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2373d09a-4caa-4646-8d27-a194f221d299">
+    </UnitTestResult>
+    <UnitTestResult executionId="dd294fa6-c0e9-495f-8553-50848dfb4769" testId="f013084a-d4ea-a9f8-357a-4047b1176ab2" testName="DataOrderPreservedTest" computerName="COREY-ASUS" duration="00:00:00.5113545" startTime="2013-04-20T15:46:44.7769912-05:00" endTime="2013-04-20T15:46:45.2920207-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dd294fa6-c0e9-495f-8553-50848dfb4769">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method QueueTests.ArrayQueueTest.DataOrderPreservedTest threw exception: 
+Assignment_1.QueueFullException: Attempt to add to a full queue</Message>
+          <StackTrace>    at Assignment_1.ArrayQueue.Enqueue(Object o) in D:\Documents\Visual Studio 2012\EECS 311 Assignment 1\Assignment 1\ArrayQueue.cs:line 30
+   at QueueTests.ArrayQueueTest.DataOrderPreservedTest() in D:\Documents\Visual Studio 2012\EECS 311 Assignment 1\QueueTests\ArrayQueueTest.cs:line 139
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4e1299dd-a66d-4928-999e-8b05211a9789" testId="282e02e9-49c3-e1d4-f2ea-59cee629a781" testName="DequeueOnEmptyQueueThrowsQueueEmptyExceptionTest" computerName="COREY-ASUS" duration="00:00:00.4070786" startTime="2013-04-20T15:46:45.3190222-05:00" endTime="2013-04-20T15:46:45.7300457-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4e1299dd-a66d-4928-999e-8b05211a9789">
+    </UnitTestResult>
+  </Results>
+</TestRun>

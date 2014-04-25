@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b2b76868-f95a-4404-b6b3-64209fba07f0" name="asus@COREY-ASUS 2013-05-03 15:20:01" runUser="COREY-ASUS\asus" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="4086bb99-4879-4a3b-8a59-bbea98ebebc6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="asus_COREY-ASUS 2013-05-03 15_20_01">
+      <DeploymentItem filename="D:\Documents\Visual Studio 2012\EECS-311 Assignment 3\HappyFunBlob\bin\x86\Debug\HappyFunBlob.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-05-03T15:20:01.7363818-05:00" queuing="2013-05-03T15:20:01.8423879-05:00" start="2013-05-03T15:20:01.8663893-05:00" finish="2013-05-03T15:20:02.2694123-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="13" executed="13" passed="4" error="0" failed="9" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="BuildTreeSplitAlongYTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 3\tests\bin\debug\tests.dll" id="1e9ad0a3-0f9e-4b0e-7759-2aa9158a5696">
+      <Execution id="002f89d5-7caf-4841-a0c8-0a481ffc378f" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 3/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.BSPTreeTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BuildTreeSplitAlongYTest" />
+    </UnitTest>
+    <UnitTest name="DoAllIntersectingObjectsNullIntersectionTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 3\tests\bin\debug\tests.dll" id="ff460abd-4f60-52b4-1b9d-22af420ce364">
+      <Execution id="66912e34-e9b8-4520-b139-729886f3ab36" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 3/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.BSPTreeTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DoAllIntersectingObjectsNullIntersectionTest" />
+    </UnitTest>
+    <UnitTest name="NoSplitAvailableTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 3\tests\bin\debug\tests.dll" id="4f1fb53f-3ae3-81d5-493f-9d8ce970c212">
+      <Execution id="bee5f98e-aee9-469e-81e9-cf972e18b635" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 3/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.BSPTreeTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NoSplitAvailableTest" />
+    </UnitTest>
+    <UnitTest name="BuildLeafTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 3\tests\bin\debug\tests.dll" id="b36ef38a-b380-8d91-4854-af00d8a90814">
+      <Execution id="6f5ce1e7-043c-4bf9-8817-baee5a24a2f8" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 3/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.BSPTreeTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BuildLeafTest" />
+    </UnitTest>
+    <UnitTest name="DoAllIntersectingObjectsFrontTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 3\tests\bin\debug\tests.dll" id="8de2ba16-e2b5-88cf-6ef8-3b3f32283dc4">
+      <Execution id="2e0dbce7-7bea-45d9-ada5-3f1dd9df8ee1" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 3/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.BSPTreeTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DoAllIntersectingObjectsFrontTest" />
+    </UnitTest>
+    <UnitTest name="BuildTreeSplitAlongXTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 3\tests\bin\debug\tests.dll" id="56be26ec-e6df-d032-f6f8-c5b905723717">
+      <Execution id="9f76df45-bbb9-430e-8275-4f6ecceb0efb" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 3/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.BSPTreeTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BuildTreeSplitAlongXTest" />
+    </UnitTest>
+    <UnitTest name="BuildCorrectFormatTree" storage="d:\documents\visual studio 2012\eecs-311 assignment 3\tests\bin\debug\tests.dll" id="80e82119-a391-b72e-106c-695ef83d8b6e">
+      <Execution id="b572dd93-8bac-49d4-9bcc-86f5479c34ca" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 3/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.BSPTreeTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BuildCorrectFormatTree" />
+    </UnitTest>
+    <UnitTest name="DoAllIntersectingObjectsFrontAndBackTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 3\tests\bin\debug\tests.dll" id="47c7fea3-f1fe-f08f-db86-130052062a9a">
+      <Execution id="bf0eb48e-7a87-4b22-955c-593ec833ac0e" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 3/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.BSPTreeTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DoAllIntersectingObjectsFrontAndBackTest" />
+    </UnitTest>
+    <UnitTest name="SortGameObjectsTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 3\tests\bin\debug\tests.dll" id="8ecd4a90-916d-4070-9846-17a8baf14dd1">
+      <Execution id="1b02c8d2-a878-40d8-8e60-b4c0c54d1507" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 3/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.BSPTreeTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SortGameObjectsTest" />
+    </UnitTest>
+    <UnitTest name="DoAllIntersectingObjectsBackTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 3\tests\bin\debug\tests.dll" id="55799dd9-ab23-02d7-a266-1bd1ee6e9c08">
+      <Execution id="ca1141f4-c61a-4d29-9286-6c86fdeee3a7" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 3/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.BSPTreeTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DoAllIntersectingObjectsBackTest" />
+    </UnitTest>
+    <UnitTest name="BuildTreeSplitAlongZTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 3\tests\bin\debug\tests.dll" id="b8ee0cd3-a365-9e18-6e43-154ad1c47c94">
+      <Execution id="8d57522c-b7a1-4eb1-8505-f4742fa24a5e" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 3/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.BSPTreeTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BuildTreeSplitAlongZTest" />
+    </UnitTest>
+    <UnitTest name="SortReversedGameObjectsTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 3\tests\bin\debug\tests.dll" id="77ac8a9b-16e5-9913-ee8e-d341fea774be">
+      <Execution id="7701e1bc-2024-4cda-82ab-02d72b07b858" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 3/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.BSPTreeTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SortReversedGameObjectsTest" />
+    </UnitTest>
+    <UnitTest name="ArrangeGameObjectsCorrectlyTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 3\tests\bin\debug\tests.dll" id="599eb862-1ebc-17e2-4a0c-30dbd3dcf77f">
+      <Execution id="a11b0b92-7aa3-4026-8827-630e1168fa96" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 3/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.BSPTreeTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ArrangeGameObjectsCorrectlyTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1e9ad0a3-0f9e-4b0e-7759-2aa9158a5696" executionId="002f89d5-7caf-4841-a0c8-0a481ffc378f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="47c7fea3-f1fe-f08f-db86-130052062a9a" executionId="bf0eb48e-7a87-4b22-955c-593ec833ac0e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4f1fb53f-3ae3-81d5-493f-9d8ce970c212" executionId="bee5f98e-aee9-469e-81e9-cf972e18b635" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="55799dd9-ab23-02d7-a266-1bd1ee6e9c08" executionId="ca1141f4-c61a-4d29-9286-6c86fdeee3a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="56be26ec-e6df-d032-f6f8-c5b905723717" executionId="9f76df45-bbb9-430e-8275-4f6ecceb0efb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="599eb862-1ebc-17e2-4a0c-30dbd3dcf77f" executionId="a11b0b92-7aa3-4026-8827-630e1168fa96" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77ac8a9b-16e5-9913-ee8e-d341fea774be" executionId="7701e1bc-2024-4cda-82ab-02d72b07b858" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="80e82119-a391-b72e-106c-695ef83d8b6e" executionId="b572dd93-8bac-49d4-9bcc-86f5479c34ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8de2ba16-e2b5-88cf-6ef8-3b3f32283dc4" executionId="2e0dbce7-7bea-45d9-ada5-3f1dd9df8ee1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8ecd4a90-916d-4070-9846-17a8baf14dd1" executionId="1b02c8d2-a878-40d8-8e60-b4c0c54d1507" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b36ef38a-b380-8d91-4854-af00d8a90814" executionId="6f5ce1e7-043c-4bf9-8817-baee5a24a2f8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b8ee0cd3-a365-9e18-6e43-154ad1c47c94" executionId="8d57522c-b7a1-4eb1-8505-f4742fa24a5e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ff460abd-4f60-52b4-1b9d-22af420ce364" executionId="66912e34-e9b8-4520-b139-729886f3ab36" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="002f89d5-7caf-4841-a0c8-0a481ffc378f" testId="1e9ad0a3-0f9e-4b0e-7759-2aa9158a5696" testName="BuildTreeSplitAlongYTest" computerName="COREY-ASUS" duration="00:00:00.0744545" startTime="2013-05-03T15:20:01.8843903-05:00" endTime="2013-05-03T15:20:02.1844075-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="002f89d5-7caf-4841-a0c8-0a481ffc378f">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.BSPTreeTest.BuildTreeSplitAlongYTest threw exception: 
+HappyFunBlob.NoSplitAxisException: There is no axis to split on</Message>
+          <StackTrace>    at HappyFunBlob.BSPTree.BuildTree(List`1 objects) in D:\Documents\Visual Studio 2012\EECS-311 Assignment 3\HappyFunBlob\BSPTree.cs:line 48
+   at DictionaryTests.BSPTreeTest.BuildTreeSplitAlongYTest() in D:\Documents\Visual Studio 2012\EECS-311 Assignment 3\Tests\BSPTreeTest.cs:line 301
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bf0eb48e-7a87-4b22-955c-593ec833ac0e" testId="47c7fea3-f1fe-f08f-db86-130052062a9a" testName="DoAllIntersectingObjectsFrontAndBackTest" computerName="COREY-ASUS" duration="00:00:00.0018678" startTime="2013-05-03T15:20:02.1864076-05:00" endTime="2013-05-03T15:20:02.1914079-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bf0eb48e-7a87-4b22-955c-593ec833ac0e">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.BSPTreeTest.DoAllIntersectingObjectsFrontAndBackTest threw exception: 
+HappyFunBlob.NoSplitAxisException: There is no axis to split on</Message>
+          <StackTrace>    at HappyFunBlob.BSPTree.BuildTree(List`1 objects) in D:\Documents\Visual Studio 2012\EECS-311 Assignment 3\HappyFunBlob\BSPTree.cs:line 48
+   at DictionaryTests.BSPTreeTest.DoAllIntersectingObjectsFrontAndBackTest() in D:\Documents\Visual Studio 2012\EECS-311 Assignment 3\Tests\BSPTreeTest.cs:line 167
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bee5f98e-aee9-469e-81e9-cf972e18b635" testId="4f1fb53f-3ae3-81d5-493f-9d8ce970c212" testName="NoSplitAvailableTest" computerName="COREY-ASUS" duration="00:00:00.0005430" startTime="2013-05-03T15:20:02.1924079-05:00" endTime="2013-05-03T15:20:02.1954081-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bee5f98e-aee9-469e-81e9-cf972e18b635">
+    </UnitTestResult>
+    <UnitTestResult executionId="ca1141f4-c61a-4d29-9286-6c86fdeee3a7" testId="55799dd9-ab23-02d7-a266-1bd1ee6e9c08" testName="DoAllIntersectingObjectsBackTest" computerName="COREY-ASUS" duration="00:00:00.0014943" startTime="2013-05-03T15:20:02.1974082-05:00" endTime="2013-05-03T15:20:02.2004084-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ca1141f4-c61a-4d29-9286-6c86fdeee3a7">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.BSPTreeTest.DoAllIntersectingObjectsBackTest threw exception: 
+HappyFunBlob.NoSplitAxisException: There is no axis to split on</Message>
+          <StackTrace>    at HappyFunBlob.BSPTree.BuildTree(List`1 objects) in D:\Documents\Visual Studio 2012\EECS-311 Assignment 3\HappyFunBlob\BSPTree.cs:line 48
+   at DictionaryTests.BSPTreeTest.DoAllIntersectingObjectsBackTest() in D:\Documents\Visual Studio 2012\EECS-311 Assignment 3\Tests\BSPTreeTest.cs:line 140
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9f76df45-bbb9-430e-8275-4f6ecceb0efb" testId="56be26ec-e6df-d032-f6f8-c5b905723717" testName="BuildTreeSplitAlongXTest" computerName="COREY-ASUS" duration="00:00:00.0015077" startTime="2013-05-03T15:20:02.2024085-05:00" endTime="2013-05-03T15:20:02.2064087-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9f76df45-bbb9-430e-8275-4f6ecceb0efb">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.BSPTreeTest.BuildTreeSplitAlongXTest threw exception: 
+HappyFunBlob.NoSplitAxisException: There is no axis to split on</Message>
+          <StackTrace>    at HappyFunBlob.BSPTree.BuildTree(List`1 objects) in D:\Documents\Visual Studio 2012\EECS-311 Assignment 3\HappyFunBlob\BSPTree.cs:line 48
+   at DictionaryTests.BSPTreeTest.BuildTreeSplitAlongXTest() in D:\Documents\Visual Studio 2012\EECS-311 Assignment 3\Tests\BSPTreeTest.cs:line 280
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a11b0b92-7aa3-4026-8827-630e1168fa96" testId="599eb862-1ebc-17e2-4a0c-30dbd3dcf77f" testName="ArrangeGameObjectsCorrectlyTest" computerName="COREY-ASUS" duration="00:00:00.0016715" startTime="2013-05-03T15:20:02.2084088-05:00" endTime="2013-05-03T15:20:02.2124091-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a11b0b92-7aa3-4026-8827-630e1168fa96">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.BSPTreeTest.ArrangeGameObjectsCorrectlyTest threw exception: 
+HappyFunBlob.NoSplitAxisException: There is no axis to split on</Message>
+          <StackTrace>    at HappyFunBlob.BSPTree.BuildTree(List`1 objects) in D:\Documents\Visual Studio 2012\EECS-311 Assignment 3\HappyFunBlob\BSPTree.cs:line 48
+   at DictionaryTests.BSPTreeTest.ArrangeGameObjectsCorrectlyTest() in D:\Documents\Visual Studio 2012\EECS-311 Assignment 3\Tests\BSPTreeTest.cs:line 247
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7701e1bc-2024-4cda-82ab-02d72b07b858" testId="77ac8a9b-16e5-9913-ee8e-d341fea774be" testName="SortReversedGameObjectsTest" computerName="COREY-ASUS" duration="00:00:00.0004488" startTime="2013-05-03T15:20:02.2134091-05:00" endTime="2013-05-03T15:20:02.2154092-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7701e1bc-2024-4cda-82ab-02d72b07b858">
+    </UnitTestResult>
+    <UnitTestResult executionId="b572dd93-8bac-49d4-9bcc-86f5479c34ca" testId="80e82119-a391-b72e-106c-695ef83d8b6e" testName="BuildCorrectFormatTree" computerName="COREY-ASUS" duration="00:00:00.0013533" startTime="2013-05-03T15:20:02.2174094-05:00" endTime="2013-05-03T15:20:02.2214096-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b572dd93-8bac-49d4-9bcc-86f5479c34ca">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.BSPTreeTest.BuildCorrectFormatTree threw exception: 
+HappyFunBlob.NoSplitAxisException: There is no axis to split on</Message>
+          <StackTrace>    at HappyFunBlob.BSPTree.BuildTree(List`1 objects) in D:\Documents\Visual Studio 2012\EECS-311 Assignment 3\HappyFunBlob\BSPTree.cs:line 48
+   at DictionaryTests.BSPTreeTest.BuildCorrectFormatTree() in D:\Documents\Visual Studio 2012\EECS-311 Assignment 3\Tests\BSPTreeTest.cs:line 231
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2e0dbce7-7bea-45d9-ada5-3f1dd9df8ee1" testId="8de2ba16-e2b5-88cf-6ef8-3b3f32283dc4" testName="DoAllIntersectingObjectsFrontTest" computerName="COREY-ASUS" duration="00:00:00.0020597" startTime="2013-05-03T15:20:02.2224096-05:00" endTime="2013-05-03T15:20:02.2274099-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2e0dbce7-7bea-45d9-ada5-3f1dd9df8ee1">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.BSPTreeTest.DoAllIntersectingObjectsFrontTest threw exception: 
+HappyFunBlob.NoSplitAxisException: There is no axis to split on</Message>
+          <StackTrace>    at HappyFunBlob.BSPTree.BuildTree(List`1 objects) in D:\Documents\Visual Studio 2012\EECS-311 Assignment 3\HappyFunBlob\BSPTree.cs:line 48
+   at DictionaryTests.BSPTreeTest.DoAllIntersectingObjectsFrontTest() in D:\Documents\Visual Studio 2012\EECS-311 Assignment 3\Tests\BSPTreeTest.cs:line 113
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1b02c8d2-a878-40d8-8e60-b4c0c54d1507" testId="8ecd4a90-916d-4070-9846-17a8baf14dd1" testName="SortGameObjectsTest" computerName="COREY-ASUS" duration="00:00:00.0003502" startTime="2013-05-03T15:20:02.2284100-05:00" endTime="2013-05-03T15:20:02.2314102-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1b02c8d2-a878-40d8-8e60-b4c0c54d1507">
+    </UnitTestResult>
+    <UnitTestResult executionId="6f5ce1e7-043c-4bf9-8817-baee5a24a2f8" testId="b36ef38a-b380-8d91-4854-af00d8a90814" testName="BuildLeafTest" computerName="COREY-ASUS" duration="00:00:00.0004984" startTime="2013-05-03T15:20:02.2324102-05:00" endTime="2013-05-03T15:20:02.2344103-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6f5ce1e7-043c-4bf9-8817-baee5a24a2f8">
+    </UnitTestResult>
+    <UnitTestResult executionId="8d57522c-b7a1-4eb1-8505-f4742fa24a5e" testId="b8ee0cd3-a365-9e18-6e43-154ad1c47c94" testName="BuildTreeSplitAlongZTest" computerName="COREY-ASUS" duration="00:00:00.0015086" startTime="2013-05-03T15:20:02.2364104-05:00" endTime="2013-05-03T15:20:02.2394106-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8d57522c-b7a1-4eb1-8505-f4742fa24a5e">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.BSPTreeTest.BuildTreeSplitAlongZTest threw exception: 
+HappyFunBlob.NoSplitAxisException: There is no axis to split on</Message>
+          <StackTrace>    at HappyFunBlob.BSPTree.BuildTree(List`1 objects) in D:\Documents\Visual Studio 2012\EECS-311 Assignment 3\HappyFunBlob\BSPTree.cs:line 48
+   at DictionaryTests.BSPTreeTest.BuildTreeSplitAlongZTest() in D:\Documents\Visual Studio 2012\EECS-311 Assignment 3\Tests\BSPTreeTest.cs:line 323
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="66912e34-e9b8-4520-b139-729886f3ab36" testId="ff460abd-4f60-52b4-1b9d-22af420ce364" testName="DoAllIntersectingObjectsNullIntersectionTest" computerName="COREY-ASUS" duration="00:00:00.0015376" startTime="2013-05-03T15:20:02.2414107-05:00" endTime="2013-05-03T15:20:02.2444109-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="66912e34-e9b8-4520-b139-729886f3ab36">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DictionaryTests.BSPTreeTest.DoAllIntersectingObjectsNullIntersectionTest threw exception: 
+HappyFunBlob.NoSplitAxisException: There is no axis to split on</Message>
+          <StackTrace>    at HappyFunBlob.BSPTree.BuildTree(List`1 objects) in D:\Documents\Visual Studio 2012\EECS-311 Assignment 3\HappyFunBlob\BSPTree.cs:line 48
+   at DictionaryTests.BSPTreeTest.DoAllIntersectingObjectsNullIntersectionTest() in D:\Documents\Visual Studio 2012\EECS-311 Assignment 3\Tests\BSPTreeTest.cs:line 193
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

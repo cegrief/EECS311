@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="18efbc02-23cf-4963-8fc1-1ccf995327fe" name="Corey@COREY-ASUS 2013-05-09 22:30:18" runUser="Corey-ASUS\Corey" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="4086bb99-4879-4a3b-8a59-bbea98ebebc6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Corey_COREY-ASUS 2013-05-09 22_30_18">
+      <DeploymentItem filename="D:\Documents\Visual Studio 2012\EECS-311 Assignment 4\HappyFunBlob\bin\x86\Debug\HappyFunBlob.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-05-09T22:30:18.7864986-05:00" queuing="2013-05-09T22:30:21.2956421-05:00" start="2013-05-09T22:30:21.3026425-05:00" finish="2013-05-09T22:30:21.6026597-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="18" executed="18" passed="15" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="OpenHTCountTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 4\tests\bin\debug\tests.dll" id="e1e81ca3-826b-3286-bf15-706298b51fdd">
+      <Execution id="e4fe7cf4-4d32-4361-884a-4d5adcee6726" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 4/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.OpenAddressedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OpenHTCountTest" />
+    </UnitTest>
+    <UnitTest name="OpenHTStoreOverwriteTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 4\tests\bin\debug\tests.dll" id="c7ba8f42-0ec1-9118-d9bb-e81b4295e097">
+      <Execution id="fed6f5be-ffe4-4865-9213-ff348f2117b3" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 4/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.OpenAddressedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OpenHTStoreOverwriteTest" />
+    </UnitTest>
+    <UnitTest name="ChainedHashtableConstructorTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 4\tests\bin\debug\tests.dll" id="b7f32841-9164-ff19-cb23-03474a5b68f2">
+      <Execution id="c35abb14-c0df-4711-ab2a-cf8fdbd4dca0" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 4/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.ChainedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChainedHashtableConstructorTest" />
+    </UnitTest>
+    <UnitTest name="ChainedHashtableParentTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 4\tests\bin\debug\tests.dll" id="77f92430-e15d-1805-2a5f-3bac8352d656">
+      <Execution id="2a77354b-d326-4000-87ec-a825f8086df7" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 4/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.ChainedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChainedHashtableParentTest" />
+    </UnitTest>
+    <UnitTest name="OpenHTLookupThrowsDictionaryNotFoundExceptionTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 4\tests\bin\debug\tests.dll" id="d1ac431c-9b5d-62c2-4a87-7869fa50817e">
+      <Execution id="bf4f43b6-7775-4644-a138-7e5edeb928d4" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 4/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.OpenAddressedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OpenHTLookupThrowsDictionaryNotFoundExceptionTest" />
+    </UnitTest>
+    <UnitTest name="LDCountTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 4\tests\bin\debug\tests.dll" id="3173ec7c-8657-cbfa-7b23-73980f4cefc5">
+      <Execution id="33dd12bb-5ffa-4f6e-ab38-83e6ca98c6ae" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 4/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.ListDictionaryTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LDCountTest" />
+    </UnitTest>
+    <UnitTest name="OpenAddressedHashtableParentTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 4\tests\bin\debug\tests.dll" id="396f85f9-d3a1-d602-2d10-d3e11e085d0a">
+      <Execution id="a66dd7df-37cc-4938-9fe0-00b6b4098fab" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 4/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.OpenAddressedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OpenAddressedHashtableParentTest" />
+    </UnitTest>
+    <UnitTest name="ListDictionaryConstructorTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 4\tests\bin\debug\tests.dll" id="d354d05d-5a14-6853-83aa-d07785f73845">
+      <Execution id="eece5a79-b748-4763-9007-56d443a5b595" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 4/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.ListDictionaryTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ListDictionaryConstructorTest" />
+    </UnitTest>
+    <UnitTest name="ChainedHTLookupThrowsDictionaryNotFoundExceptionTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 4\tests\bin\debug\tests.dll" id="e574ba46-8e58-1576-7c9a-4a505f9c4e46">
+      <Execution id="49ae4ca7-63c6-4085-b478-d962178a1b06" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 4/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.ChainedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChainedHTLookupThrowsDictionaryNotFoundExceptionTest" />
+    </UnitTest>
+    <UnitTest name="LDStoreAndLookupTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 4\tests\bin\debug\tests.dll" id="edc32e9c-1d9d-f859-e9bd-6fe889c0416d">
+      <Execution id="addbb2a6-3681-4ca0-81b7-d25130841bfa" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 4/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.ListDictionaryTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LDStoreAndLookupTest" />
+    </UnitTest>
+    <UnitTest name="OpenHTOverflowThrowsHashtableFullExceptionTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 4\tests\bin\debug\tests.dll" id="6acd591f-d4d7-26f6-6464-9cb81148900b">
+      <Execution id="21e2cb92-ac5b-49a2-a34f-1aa56c138d76" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 4/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.OpenAddressedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OpenHTOverflowThrowsHashtableFullExceptionTest" />
+    </UnitTest>
+    <UnitTest name="ChainedHTStoreOverwriteTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 4\tests\bin\debug\tests.dll" id="9249a21f-90aa-8e95-edbf-7a2477a28138">
+      <Execution id="1ffc41d2-ace2-4d10-81b7-469a0c25dbfc" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 4/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.ChainedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChainedHTStoreOverwriteTest" />
+    </UnitTest>
+    <UnitTest name="ChainedHTCountTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 4\tests\bin\debug\tests.dll" id="bb5e8172-c68a-e1e2-cf9f-78e491bcbf2e">
+      <Execution id="f8cc97b0-c90c-41eb-bc92-59c6ed875238" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 4/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.ChainedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChainedHTCountTest" />
+    </UnitTest>
+    <UnitTest name="OpenAddressedHashtableConstructorTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 4\tests\bin\debug\tests.dll" id="f58fbbb2-c088-fc25-febb-1f85ba59f24c">
+      <Execution id="824b0544-4ec7-408b-a3e9-8297cd28c0f8" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 4/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.OpenAddressedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OpenAddressedHashtableConstructorTest" />
+    </UnitTest>
+    <UnitTest name="LDStoreOverwriteTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 4\tests\bin\debug\tests.dll" id="9568328b-2cfe-4270-7887-6945be150cfd">
+      <Execution id="f19099c0-ef1e-4e01-9fa3-3badf63d5dc1" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 4/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.ListDictionaryTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LDStoreOverwriteTest" />
+    </UnitTest>
+    <UnitTest name="LDLookupThrowsDictionaryNotFoundExceptionTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 4\tests\bin\debug\tests.dll" id="372d763a-4db8-c506-ed45-3a0f1efa9472">
+      <Execution id="c20a82bc-fc84-4b88-9a88-3cfcafc7264d" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 4/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.ListDictionaryTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LDLookupThrowsDictionaryNotFoundExceptionTest" />
+    </UnitTest>
+    <UnitTest name="ChainedHTStoreAndLookupTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 4\tests\bin\debug\tests.dll" id="92a56d21-7b45-c992-2814-b0dff9b5ca00">
+      <Execution id="33a996e7-b17d-42aa-a118-53eb0f9a37e3" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 4/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.ChainedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChainedHTStoreAndLookupTest" />
+    </UnitTest>
+    <UnitTest name="OpenHTStoreAndLookupTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 4\tests\bin\debug\tests.dll" id="a2571d66-825b-577c-328f-a9d27c85a47e">
+      <Execution id="69f53bcf-131e-4b8d-9a3b-60a8d7420ad4" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 4/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.OpenAddressedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OpenHTStoreAndLookupTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3173ec7c-8657-cbfa-7b23-73980f4cefc5" executionId="33dd12bb-5ffa-4f6e-ab38-83e6ca98c6ae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="372d763a-4db8-c506-ed45-3a0f1efa9472" executionId="c20a82bc-fc84-4b88-9a88-3cfcafc7264d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="396f85f9-d3a1-d602-2d10-d3e11e085d0a" executionId="a66dd7df-37cc-4938-9fe0-00b6b4098fab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6acd591f-d4d7-26f6-6464-9cb81148900b" executionId="21e2cb92-ac5b-49a2-a34f-1aa56c138d76" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77f92430-e15d-1805-2a5f-3bac8352d656" executionId="2a77354b-d326-4000-87ec-a825f8086df7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9249a21f-90aa-8e95-edbf-7a2477a28138" executionId="1ffc41d2-ace2-4d10-81b7-469a0c25dbfc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="92a56d21-7b45-c992-2814-b0dff9b5ca00" executionId="33a996e7-b17d-42aa-a118-53eb0f9a37e3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9568328b-2cfe-4270-7887-6945be150cfd" executionId="f19099c0-ef1e-4e01-9fa3-3badf63d5dc1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a2571d66-825b-577c-328f-a9d27c85a47e" executionId="69f53bcf-131e-4b8d-9a3b-60a8d7420ad4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b7f32841-9164-ff19-cb23-03474a5b68f2" executionId="c35abb14-c0df-4711-ab2a-cf8fdbd4dca0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bb5e8172-c68a-e1e2-cf9f-78e491bcbf2e" executionId="f8cc97b0-c90c-41eb-bc92-59c6ed875238" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c7ba8f42-0ec1-9118-d9bb-e81b4295e097" executionId="fed6f5be-ffe4-4865-9213-ff348f2117b3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d1ac431c-9b5d-62c2-4a87-7869fa50817e" executionId="bf4f43b6-7775-4644-a138-7e5edeb928d4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d354d05d-5a14-6853-83aa-d07785f73845" executionId="eece5a79-b748-4763-9007-56d443a5b595" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e1e81ca3-826b-3286-bf15-706298b51fdd" executionId="e4fe7cf4-4d32-4361-884a-4d5adcee6726" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e574ba46-8e58-1576-7c9a-4a505f9c4e46" executionId="49ae4ca7-63c6-4085-b478-d962178a1b06" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="edc32e9c-1d9d-f859-e9bd-6fe889c0416d" executionId="addbb2a6-3681-4ca0-81b7-d25130841bfa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f58fbbb2-c088-fc25-febb-1f85ba59f24c" executionId="824b0544-4ec7-408b-a3e9-8297cd28c0f8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="33dd12bb-5ffa-4f6e-ab38-83e6ca98c6ae" testId="3173ec7c-8657-cbfa-7b23-73980f4cefc5" testName="LDCountTest" computerName="COREY-ASUS" duration="00:00:00.0126937" startTime="2013-05-09T22:30:21.3056427-05:00" endTime="2013-05-09T22:30:21.4596515-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="33dd12bb-5ffa-4f6e-ab38-83e6ca98c6ae">
+    </UnitTestResult>
+    <UnitTestResult executionId="c20a82bc-fc84-4b88-9a88-3cfcafc7264d" testId="372d763a-4db8-c506-ed45-3a0f1efa9472" testName="LDLookupThrowsDictionaryNotFoundExceptionTest" computerName="COREY-ASUS" duration="00:00:00.0032717" startTime="2013-05-09T22:30:21.4616516-05:00" endTime="2013-05-09T22:30:21.4686520-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c20a82bc-fc84-4b88-9a88-3cfcafc7264d">
+    </UnitTestResult>
+    <UnitTestResult executionId="a66dd7df-37cc-4938-9fe0-00b6b4098fab" testId="396f85f9-d3a1-d602-2d10-d3e11e085d0a" testName="OpenAddressedHashtableParentTest" computerName="COREY-ASUS" duration="00:00:00.0005274" startTime="2013-05-09T22:30:21.4706522-05:00" endTime="2013-05-09T22:30:21.4756524-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a66dd7df-37cc-4938-9fe0-00b6b4098fab">
+    </UnitTestResult>
+    <UnitTestResult executionId="21e2cb92-ac5b-49a2-a34f-1aa56c138d76" testId="6acd591f-d4d7-26f6-6464-9cb81148900b" testName="OpenHTOverflowThrowsHashtableFullExceptionTest" computerName="COREY-ASUS" duration="00:00:00.0009259" startTime="2013-05-09T22:30:21.4776526-05:00" endTime="2013-05-09T22:30:21.4816528-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="21e2cb92-ac5b-49a2-a34f-1aa56c138d76">
+    </UnitTestResult>
+    <UnitTestResult executionId="2a77354b-d326-4000-87ec-a825f8086df7" testId="77f92430-e15d-1805-2a5f-3bac8352d656" testName="ChainedHashtableParentTest" computerName="COREY-ASUS" duration="00:00:00.0003418" startTime="2013-05-09T22:30:21.4836529-05:00" endTime="2013-05-09T22:30:21.4876531-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2a77354b-d326-4000-87ec-a825f8086df7">
+    </UnitTestResult>
+    <UnitTestResult executionId="1ffc41d2-ace2-4d10-81b7-469a0c25dbfc" testId="9249a21f-90aa-8e95-edbf-7a2477a28138" testName="ChainedHTStoreOverwriteTest" computerName="COREY-ASUS" duration="00:00:00.0116495" startTime="2013-05-09T22:30:21.4896532-05:00" endTime="2013-05-09T22:30:21.5046541-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1ffc41d2-ace2-4d10-81b7-469a0c25dbfc">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Tests.ChainedHashtableTest.ChainedHTStoreOverwriteTest threw exception: 
+HappyFunBlob.DictionaryKeyNotFoundException: Key not found in dictionary: test</Message>
+          <StackTrace>    at HappyFunBlob.ChainedHashtable.Lookup(String name) in D:\Documents\Visual Studio 2012\EECS-311 Assignment 4\HappyFunBlob\ChainedHashtable.cs:line 75
+   at Tests.ChainedHashtableTest.ChainedHTStoreOverwriteTest() in D:\Documents\Visual Studio 2012\EECS-311 Assignment 4\Tests\ChainedHashtableTest.cs:line 61
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="33a996e7-b17d-42aa-a118-53eb0f9a37e3" testId="92a56d21-7b45-c992-2814-b0dff9b5ca00" testName="ChainedHTStoreAndLookupTest" computerName="COREY-ASUS" duration="00:00:00.0014136" startTime="2013-05-09T22:30:21.5056542-05:00" endTime="2013-05-09T22:30:21.5096544-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="33a996e7-b17d-42aa-a118-53eb0f9a37e3">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Tests.ChainedHashtableTest.ChainedHTStoreAndLookupTest threw exception: 
+HappyFunBlob.DictionaryKeyNotFoundException: Key not found in dictionary: x0</Message>
+          <StackTrace>    at HappyFunBlob.ChainedHashtable.Lookup(String name) in D:\Documents\Visual Studio 2012\EECS-311 Assignment 4\HappyFunBlob\ChainedHashtable.cs:line 75
+   at Tests.ChainedHashtableTest.ChainedHTStoreAndLookupTest() in D:\Documents\Visual Studio 2012\EECS-311 Assignment 4\Tests\ChainedHashtableTest.cs:line 95
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f19099c0-ef1e-4e01-9fa3-3badf63d5dc1" testId="9568328b-2cfe-4270-7887-6945be150cfd" testName="LDStoreOverwriteTest" computerName="COREY-ASUS" duration="00:00:00.0003221" startTime="2013-05-09T22:30:21.5116545-05:00" endTime="2013-05-09T22:30:21.5156547-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f19099c0-ef1e-4e01-9fa3-3badf63d5dc1">
+    </UnitTestResult>
+    <UnitTestResult executionId="69f53bcf-131e-4b8d-9a3b-60a8d7420ad4" testId="a2571d66-825b-577c-328f-a9d27c85a47e" testName="OpenHTStoreAndLookupTest" computerName="COREY-ASUS" duration="00:00:00.0005899" startTime="2013-05-09T22:30:21.5176548-05:00" endTime="2013-05-09T22:30:21.5216551-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="69f53bcf-131e-4b8d-9a3b-60a8d7420ad4">
+    </UnitTestResult>
+    <UnitTestResult executionId="c35abb14-c0df-4711-ab2a-cf8fdbd4dca0" testId="b7f32841-9164-ff19-cb23-03474a5b68f2" testName="ChainedHashtableConstructorTest" computerName="COREY-ASUS" duration="00:00:00.0001713" startTime="2013-05-09T22:30:21.5236552-05:00" endTime="2013-05-09T22:30:21.5286555-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c35abb14-c0df-4711-ab2a-cf8fdbd4dca0">
+    </UnitTestResult>
+    <UnitTestResult executionId="f8cc97b0-c90c-41eb-bc92-59c6ed875238" testId="bb5e8172-c68a-e1e2-cf9f-78e491bcbf2e" testName="ChainedHTCountTest" computerName="COREY-ASUS" duration="00:00:00.0030378" startTime="2013-05-09T22:30:21.5446564-05:00" endTime="2013-05-09T22:30:21.5516568-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f8cc97b0-c90c-41eb-bc92-59c6ed875238">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;2&gt;. Actual:&lt;3&gt;. Overwriting key that is already stored in the dictionary should not change the count.</Message>
+          <StackTrace>   at Tests.ChainedHashtableTest.ChainedHTCountTest() in D:\Documents\Visual Studio 2012\EECS-311 Assignment 4\Tests\ChainedHashtableTest.cs:line 113
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fed6f5be-ffe4-4865-9213-ff348f2117b3" testId="c7ba8f42-0ec1-9118-d9bb-e81b4295e097" testName="OpenHTStoreOverwriteTest" computerName="COREY-ASUS" duration="00:00:00.0002306" startTime="2013-05-09T22:30:21.5536569-05:00" endTime="2013-05-09T22:30:21.5576571-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fed6f5be-ffe4-4865-9213-ff348f2117b3">
+    </UnitTestResult>
+    <UnitTestResult executionId="bf4f43b6-7775-4644-a138-7e5edeb928d4" testId="d1ac431c-9b5d-62c2-4a87-7869fa50817e" testName="OpenHTLookupThrowsDictionaryNotFoundExceptionTest" computerName="COREY-ASUS" duration="00:00:00.0003882" startTime="2013-05-09T22:30:21.5596572-05:00" endTime="2013-05-09T22:30:21.5636575-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bf4f43b6-7775-4644-a138-7e5edeb928d4">
+    </UnitTestResult>
+    <UnitTestResult executionId="eece5a79-b748-4763-9007-56d443a5b595" testId="d354d05d-5a14-6853-83aa-d07785f73845" testName="ListDictionaryConstructorTest" computerName="COREY-ASUS" duration="00:00:00.0002623" startTime="2013-05-09T22:30:21.5656576-05:00" endTime="2013-05-09T22:30:21.5696578-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eece5a79-b748-4763-9007-56d443a5b595">
+    </UnitTestResult>
+    <UnitTestResult executionId="e4fe7cf4-4d32-4361-884a-4d5adcee6726" testId="e1e81ca3-826b-3286-bf15-706298b51fdd" testName="OpenHTCountTest" computerName="COREY-ASUS" duration="00:00:00.0003404" startTime="2013-05-09T22:30:21.5716579-05:00" endTime="2013-05-09T22:30:21.5756582-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e4fe7cf4-4d32-4361-884a-4d5adcee6726">
+    </UnitTestResult>
+    <UnitTestResult executionId="49ae4ca7-63c6-4085-b478-d962178a1b06" testId="e574ba46-8e58-1576-7c9a-4a505f9c4e46" testName="ChainedHTLookupThrowsDictionaryNotFoundExceptionTest" computerName="COREY-ASUS" duration="00:00:00.0005341" startTime="2013-05-09T22:30:21.5776583-05:00" endTime="2013-05-09T22:30:21.5816585-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="49ae4ca7-63c6-4085-b478-d962178a1b06">
+    </UnitTestResult>
+    <UnitTestResult executionId="addbb2a6-3681-4ca0-81b7-d25130841bfa" testId="edc32e9c-1d9d-f859-e9bd-6fe889c0416d" testName="LDStoreAndLookupTest" computerName="COREY-ASUS" duration="00:00:00.0004011" startTime="2013-05-09T22:30:21.5836586-05:00" endTime="2013-05-09T22:30:21.5866588-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="addbb2a6-3681-4ca0-81b7-d25130841bfa">
+    </UnitTestResult>
+    <UnitTestResult executionId="824b0544-4ec7-408b-a3e9-8297cd28c0f8" testId="f58fbbb2-c088-fc25-febb-1f85ba59f24c" testName="OpenAddressedHashtableConstructorTest" computerName="COREY-ASUS" duration="00:00:00.0001151" startTime="2013-05-09T22:30:21.5886589-05:00" endTime="2013-05-09T22:30:21.5916591-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="824b0544-4ec7-408b-a3e9-8297cd28c0f8">
+    </UnitTestResult>
+  </Results>
+</TestRun>

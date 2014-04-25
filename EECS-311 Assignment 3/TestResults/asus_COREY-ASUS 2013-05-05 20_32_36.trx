@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2d778723-e6c1-487a-a3b9-e9fdf7b9ad50" name="asus@COREY-ASUS 2013-05-05 20:32:36" runUser="COREY-ASUS\asus" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="4086bb99-4879-4a3b-8a59-bbea98ebebc6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="asus_COREY-ASUS 2013-05-05 20_32_36">
+      <DeploymentItem filename="D:\Documents\Visual Studio 2012\EECS-311 Assignment 3\HappyFunBlob\bin\x86\Debug\HappyFunBlob.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-05-05T20:32:36.4175409-05:00" queuing="2013-05-05T20:32:39.0227455-05:00" start="2013-05-05T20:32:39.2255458-05:00" finish="2013-05-05T20:32:45.2783565-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="13" executed="13" passed="13" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="BuildTreeSplitAlongYTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 3\tests\bin\debug\tests.dll" id="1e9ad0a3-0f9e-4b0e-7759-2aa9158a5696">
+      <Execution id="11d44753-a600-4491-8a4b-3520feb4a000" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 3/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.BSPTreeTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BuildTreeSplitAlongYTest" />
+    </UnitTest>
+    <UnitTest name="DoAllIntersectingObjectsNullIntersectionTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 3\tests\bin\debug\tests.dll" id="ff460abd-4f60-52b4-1b9d-22af420ce364">
+      <Execution id="657087b6-ffe4-4491-a92a-e0231d3dec82" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 3/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.BSPTreeTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DoAllIntersectingObjectsNullIntersectionTest" />
+    </UnitTest>
+    <UnitTest name="NoSplitAvailableTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 3\tests\bin\debug\tests.dll" id="4f1fb53f-3ae3-81d5-493f-9d8ce970c212">
+      <Execution id="467993b6-600d-4c89-8553-340803751e37" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 3/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.BSPTreeTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NoSplitAvailableTest" />
+    </UnitTest>
+    <UnitTest name="BuildLeafTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 3\tests\bin\debug\tests.dll" id="b36ef38a-b380-8d91-4854-af00d8a90814">
+      <Execution id="b9d2b9dc-43e6-4dbb-ae7d-f53ee72302a7" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 3/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.BSPTreeTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BuildLeafTest" />
+    </UnitTest>
+    <UnitTest name="DoAllIntersectingObjectsFrontTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 3\tests\bin\debug\tests.dll" id="8de2ba16-e2b5-88cf-6ef8-3b3f32283dc4">
+      <Execution id="321c7338-5833-4385-b63f-bd5a2c814bab" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 3/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.BSPTreeTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DoAllIntersectingObjectsFrontTest" />
+    </UnitTest>
+    <UnitTest name="BuildTreeSplitAlongXTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 3\tests\bin\debug\tests.dll" id="56be26ec-e6df-d032-f6f8-c5b905723717">
+      <Execution id="01de575b-8a2e-4fad-9b11-33d57a843de3" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 3/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.BSPTreeTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BuildTreeSplitAlongXTest" />
+    </UnitTest>
+    <UnitTest name="BuildCorrectFormatTree" storage="d:\documents\visual studio 2012\eecs-311 assignment 3\tests\bin\debug\tests.dll" id="80e82119-a391-b72e-106c-695ef83d8b6e">
+      <Execution id="e626de8b-8b34-44b3-afe6-dd60e83d2936" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 3/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.BSPTreeTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BuildCorrectFormatTree" />
+    </UnitTest>
+    <UnitTest name="DoAllIntersectingObjectsFrontAndBackTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 3\tests\bin\debug\tests.dll" id="47c7fea3-f1fe-f08f-db86-130052062a9a">
+      <Execution id="0204f05d-33d0-4b2b-a1b5-723ac6673224" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 3/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.BSPTreeTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DoAllIntersectingObjectsFrontAndBackTest" />
+    </UnitTest>
+    <UnitTest name="SortGameObjectsTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 3\tests\bin\debug\tests.dll" id="8ecd4a90-916d-4070-9846-17a8baf14dd1">
+      <Execution id="a19e77f8-8deb-46bb-b385-42fe94ba19c0" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 3/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.BSPTreeTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SortGameObjectsTest" />
+    </UnitTest>
+    <UnitTest name="DoAllIntersectingObjectsBackTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 3\tests\bin\debug\tests.dll" id="55799dd9-ab23-02d7-a266-1bd1ee6e9c08">
+      <Execution id="9b3b3b3f-2195-46b3-bea9-9855972e6b36" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 3/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.BSPTreeTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DoAllIntersectingObjectsBackTest" />
+    </UnitTest>
+    <UnitTest name="BuildTreeSplitAlongZTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 3\tests\bin\debug\tests.dll" id="b8ee0cd3-a365-9e18-6e43-154ad1c47c94">
+      <Execution id="1da682ae-9c89-433e-9056-6cfa9ddb9c0c" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 3/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.BSPTreeTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BuildTreeSplitAlongZTest" />
+    </UnitTest>
+    <UnitTest name="SortReversedGameObjectsTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 3\tests\bin\debug\tests.dll" id="77ac8a9b-16e5-9913-ee8e-d341fea774be">
+      <Execution id="7439345c-5b22-4464-a994-5e4dec8bbbeb" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 3/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.BSPTreeTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SortReversedGameObjectsTest" />
+    </UnitTest>
+    <UnitTest name="ArrangeGameObjectsCorrectlyTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 3\tests\bin\debug\tests.dll" id="599eb862-1ebc-17e2-4a0c-30dbd3dcf77f">
+      <Execution id="669e03af-e157-463e-8a8c-6089c5da0de4" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 3/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.BSPTreeTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ArrangeGameObjectsCorrectlyTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8ecd4a90-916d-4070-9846-17a8baf14dd1" executionId="a19e77f8-8deb-46bb-b385-42fe94ba19c0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77ac8a9b-16e5-9913-ee8e-d341fea774be" executionId="7439345c-5b22-4464-a994-5e4dec8bbbeb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8de2ba16-e2b5-88cf-6ef8-3b3f32283dc4" executionId="321c7338-5833-4385-b63f-bd5a2c814bab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="55799dd9-ab23-02d7-a266-1bd1ee6e9c08" executionId="9b3b3b3f-2195-46b3-bea9-9855972e6b36" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="47c7fea3-f1fe-f08f-db86-130052062a9a" executionId="0204f05d-33d0-4b2b-a1b5-723ac6673224" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ff460abd-4f60-52b4-1b9d-22af420ce364" executionId="657087b6-ffe4-4491-a92a-e0231d3dec82" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b36ef38a-b380-8d91-4854-af00d8a90814" executionId="b9d2b9dc-43e6-4dbb-ae7d-f53ee72302a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="80e82119-a391-b72e-106c-695ef83d8b6e" executionId="e626de8b-8b34-44b3-afe6-dd60e83d2936" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="599eb862-1ebc-17e2-4a0c-30dbd3dcf77f" executionId="669e03af-e157-463e-8a8c-6089c5da0de4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4f1fb53f-3ae3-81d5-493f-9d8ce970c212" executionId="467993b6-600d-4c89-8553-340803751e37" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="56be26ec-e6df-d032-f6f8-c5b905723717" executionId="01de575b-8a2e-4fad-9b11-33d57a843de3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1e9ad0a3-0f9e-4b0e-7759-2aa9158a5696" executionId="11d44753-a600-4491-8a4b-3520feb4a000" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b8ee0cd3-a365-9e18-6e43-154ad1c47c94" executionId="1da682ae-9c89-433e-9056-6cfa9ddb9c0c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a19e77f8-8deb-46bb-b385-42fe94ba19c0" testId="8ecd4a90-916d-4070-9846-17a8baf14dd1" testName="SortGameObjectsTest" computerName="COREY-ASUS" duration="00:00:00.1916078" startTime="2013-05-05T20:32:39.3191460-05:00" endTime="2013-05-05T20:32:41.8775505-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a19e77f8-8deb-46bb-b385-42fe94ba19c0">
+    </UnitTestResult>
+    <UnitTestResult executionId="7439345c-5b22-4464-a994-5e4dec8bbbeb" testId="77ac8a9b-16e5-9913-ee8e-d341fea774be" testName="SortReversedGameObjectsTest" computerName="COREY-ASUS" duration="00:00:00.0009687" startTime="2013-05-05T20:32:41.8931505-05:00" endTime="2013-05-05T20:32:41.9087505-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7439345c-5b22-4464-a994-5e4dec8bbbeb">
+    </UnitTestResult>
+    <UnitTestResult executionId="321c7338-5833-4385-b63f-bd5a2c814bab" testId="8de2ba16-e2b5-88cf-6ef8-3b3f32283dc4" testName="DoAllIntersectingObjectsFrontTest" computerName="COREY-ASUS" duration="00:00:00.0128168" startTime="2013-05-05T20:32:41.9087505-05:00" endTime="2013-05-05T20:32:41.9399506-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="321c7338-5833-4385-b63f-bd5a2c814bab">
+    </UnitTestResult>
+    <UnitTestResult executionId="9b3b3b3f-2195-46b3-bea9-9855972e6b36" testId="55799dd9-ab23-02d7-a266-1bd1ee6e9c08" testName="DoAllIntersectingObjectsBackTest" computerName="COREY-ASUS" duration="00:00:00.0017737" startTime="2013-05-05T20:32:41.9555506-05:00" endTime="2013-05-05T20:32:41.9555506-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b3b3b3f-2195-46b3-bea9-9855972e6b36">
+    </UnitTestResult>
+    <UnitTestResult executionId="0204f05d-33d0-4b2b-a1b5-723ac6673224" testId="47c7fea3-f1fe-f08f-db86-130052062a9a" testName="DoAllIntersectingObjectsFrontAndBackTest" computerName="COREY-ASUS" duration="00:00:00.0016844" startTime="2013-05-05T20:32:41.9711506-05:00" endTime="2013-05-05T20:32:41.9867507-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0204f05d-33d0-4b2b-a1b5-723ac6673224">
+    </UnitTestResult>
+    <UnitTestResult executionId="657087b6-ffe4-4491-a92a-e0231d3dec82" testId="ff460abd-4f60-52b4-1b9d-22af420ce364" testName="DoAllIntersectingObjectsNullIntersectionTest" computerName="COREY-ASUS" duration="00:00:00.0013654" startTime="2013-05-05T20:32:42.0023507-05:00" endTime="2013-05-05T20:32:42.0023507-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="657087b6-ffe4-4491-a92a-e0231d3dec82">
+    </UnitTestResult>
+    <UnitTestResult executionId="b9d2b9dc-43e6-4dbb-ae7d-f53ee72302a7" testId="b36ef38a-b380-8d91-4854-af00d8a90814" testName="BuildLeafTest" computerName="COREY-ASUS" duration="00:00:00.0008942" startTime="2013-05-05T20:32:42.0179507-05:00" endTime="2013-05-05T20:32:42.0335508-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9d2b9dc-43e6-4dbb-ae7d-f53ee72302a7">
+    </UnitTestResult>
+    <UnitTestResult executionId="e626de8b-8b34-44b3-afe6-dd60e83d2936" testId="80e82119-a391-b72e-106c-695ef83d8b6e" testName="BuildCorrectFormatTree" computerName="COREY-ASUS" duration="00:00:00.0010843" startTime="2013-05-05T20:32:42.0491508-05:00" endTime="2013-05-05T20:32:42.0647508-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e626de8b-8b34-44b3-afe6-dd60e83d2936">
+    </UnitTestResult>
+    <UnitTestResult executionId="669e03af-e157-463e-8a8c-6089c5da0de4" testId="599eb862-1ebc-17e2-4a0c-30dbd3dcf77f" testName="ArrangeGameObjectsCorrectlyTest" computerName="COREY-ASUS" duration="00:00:00.0037861" startTime="2013-05-05T20:32:42.0647508-05:00" endTime="2013-05-05T20:32:42.0803508-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="669e03af-e157-463e-8a8c-6089c5da0de4">
+    </UnitTestResult>
+    <UnitTestResult executionId="467993b6-600d-4c89-8553-340803751e37" testId="4f1fb53f-3ae3-81d5-493f-9d8ce970c212" testName="NoSplitAvailableTest" computerName="COREY-ASUS" duration="00:00:02.9330965" startTime="2013-05-05T20:32:42.0959509-05:00" endTime="2013-05-05T20:32:45.0443560-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="467993b6-600d-4c89-8553-340803751e37">
+    </UnitTestResult>
+    <UnitTestResult executionId="01de575b-8a2e-4fad-9b11-33d57a843de3" testId="56be26ec-e6df-d032-f6f8-c5b905723717" testName="BuildTreeSplitAlongXTest" computerName="COREY-ASUS" duration="00:00:00.0039861" startTime="2013-05-05T20:32:45.0443560-05:00" endTime="2013-05-05T20:32:45.0599561-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="01de575b-8a2e-4fad-9b11-33d57a843de3">
+    </UnitTestResult>
+    <UnitTestResult executionId="11d44753-a600-4491-8a4b-3520feb4a000" testId="1e9ad0a3-0f9e-4b0e-7759-2aa9158a5696" testName="BuildTreeSplitAlongYTest" computerName="COREY-ASUS" duration="00:00:00.0014145" startTime="2013-05-05T20:32:45.1223562-05:00" endTime="2013-05-05T20:32:45.1379562-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="11d44753-a600-4491-8a4b-3520feb4a000">
+    </UnitTestResult>
+    <UnitTestResult executionId="1da682ae-9c89-433e-9056-6cfa9ddb9c0c" testId="b8ee0cd3-a365-9e18-6e43-154ad1c47c94" testName="BuildTreeSplitAlongZTest" computerName="COREY-ASUS" duration="00:00:00.0013935" startTime="2013-05-05T20:32:45.1535562-05:00" endTime="2013-05-05T20:32:45.1535562-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1da682ae-9c89-433e-9056-6cfa9ddb9c0c">
+    </UnitTestResult>
+  </Results>
+</TestRun>

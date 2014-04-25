@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0a3a53e3-3380-44d1-9ed5-a2afb5e2a227" name="Corey@COREY-ASUS 2013-05-09 21:19:24" runUser="Corey-ASUS\Corey" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="4086bb99-4879-4a3b-8a59-bbea98ebebc6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Corey_COREY-ASUS 2013-05-09 21_19_24">
+      <DeploymentItem filename="D:\Documents\Visual Studio 2012\EECS-311 Assignment 4\HappyFunBlob\bin\x86\Debug\HappyFunBlob.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-05-09T21:19:24.2191513-05:00" queuing="2013-05-09T21:19:28.4623940-05:00" start="2013-05-09T21:19:28.6804065-05:00" finish="2013-05-09T21:19:40.4870818-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="18" executed="18" passed="8" error="0" failed="10" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="OpenHTCountTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 4\tests\bin\debug\tests.dll" id="e1e81ca3-826b-3286-bf15-706298b51fdd">
+      <Execution id="80355165-528e-4bdb-b1d9-6afa29fc8893" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 4/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.OpenAddressedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OpenHTCountTest" />
+    </UnitTest>
+    <UnitTest name="OpenHTStoreOverwriteTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 4\tests\bin\debug\tests.dll" id="c7ba8f42-0ec1-9118-d9bb-e81b4295e097">
+      <Execution id="03fe7785-df1a-4065-b961-49f022d5f39c" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 4/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.OpenAddressedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OpenHTStoreOverwriteTest" />
+    </UnitTest>
+    <UnitTest name="ChainedHashtableConstructorTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 4\tests\bin\debug\tests.dll" id="b7f32841-9164-ff19-cb23-03474a5b68f2">
+      <Execution id="85deff6f-b136-461e-9e74-bb1463fd24a0" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 4/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.ChainedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChainedHashtableConstructorTest" />
+    </UnitTest>
+    <UnitTest name="ChainedHashtableParentTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 4\tests\bin\debug\tests.dll" id="77f92430-e15d-1805-2a5f-3bac8352d656">
+      <Execution id="f3cefbec-b806-4560-9860-e4fe30ad70ae" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 4/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.ChainedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChainedHashtableParentTest" />
+    </UnitTest>
+    <UnitTest name="OpenHTLookupThrowsDictionaryNotFoundExceptionTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 4\tests\bin\debug\tests.dll" id="d1ac431c-9b5d-62c2-4a87-7869fa50817e">
+      <Execution id="d47760a5-9cd8-4ee1-bb6b-a4e0c779b954" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 4/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.OpenAddressedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OpenHTLookupThrowsDictionaryNotFoundExceptionTest" />
+    </UnitTest>
+    <UnitTest name="LDCountTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 4\tests\bin\debug\tests.dll" id="3173ec7c-8657-cbfa-7b23-73980f4cefc5">
+      <Execution id="ed46d0a5-e124-4d01-bbf3-caaba18bacc8" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 4/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.ListDictionaryTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LDCountTest" />
+    </UnitTest>
+    <UnitTest name="ListDictionaryConstructorTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 4\tests\bin\debug\tests.dll" id="d354d05d-5a14-6853-83aa-d07785f73845">
+      <Execution id="d45d45fb-9cfb-422b-9fa7-efe530182812" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 4/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.ListDictionaryTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ListDictionaryConstructorTest" />
+    </UnitTest>
+    <UnitTest name="ChainedHTStoreOverwriteTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 4\tests\bin\debug\tests.dll" id="9249a21f-90aa-8e95-edbf-7a2477a28138">
+      <Execution id="c332c189-5c94-46f6-98ff-37849057512e" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 4/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.ChainedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChainedHTStoreOverwriteTest" />
+    </UnitTest>
+    <UnitTest name="ChainedHTLookupThrowsDictionaryNotFoundExceptionTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 4\tests\bin\debug\tests.dll" id="e574ba46-8e58-1576-7c9a-4a505f9c4e46">
+      <Execution id="25d70f16-0300-47fc-9320-a3772b8bd48a" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 4/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.ChainedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChainedHTLookupThrowsDictionaryNotFoundExceptionTest" />
+    </UnitTest>
+    <UnitTest name="LDStoreAndLookupTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 4\tests\bin\debug\tests.dll" id="edc32e9c-1d9d-f859-e9bd-6fe889c0416d">
+      <Execution id="89c6aa14-594e-405e-8689-2908dac3895c" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 4/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.ListDictionaryTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LDStoreAndLookupTest" />
+    </UnitTest>
+    <UnitTest name="OpenHTOverflowThrowsHashtableFullExceptionTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 4\tests\bin\debug\tests.dll" id="6acd591f-d4d7-26f6-6464-9cb81148900b">
+      <Execution id="01f95b23-ac80-4712-b438-908fc0add831" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 4/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.OpenAddressedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OpenHTOverflowThrowsHashtableFullExceptionTest" />
+    </UnitTest>
+    <UnitTest name="OpenAddressedHashtableParentTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 4\tests\bin\debug\tests.dll" id="396f85f9-d3a1-d602-2d10-d3e11e085d0a">
+      <Execution id="922d2a5d-b5c8-468d-8079-7f72bcf92f65" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 4/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.OpenAddressedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OpenAddressedHashtableParentTest" />
+    </UnitTest>
+    <UnitTest name="ChainedHTCountTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 4\tests\bin\debug\tests.dll" id="bb5e8172-c68a-e1e2-cf9f-78e491bcbf2e">
+      <Execution id="b4befc62-8938-4bdc-a8ec-5f8afc415943" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 4/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.ChainedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChainedHTCountTest" />
+    </UnitTest>
+    <UnitTest name="OpenAddressedHashtableConstructorTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 4\tests\bin\debug\tests.dll" id="f58fbbb2-c088-fc25-febb-1f85ba59f24c">
+      <Execution id="c2553f0d-6b01-404a-919a-56fec1db5cab" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 4/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.OpenAddressedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OpenAddressedHashtableConstructorTest" />
+    </UnitTest>
+    <UnitTest name="LDStoreOverwriteTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 4\tests\bin\debug\tests.dll" id="9568328b-2cfe-4270-7887-6945be150cfd">
+      <Execution id="8b5ff62a-ab12-4869-8585-e72ce451ef67" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 4/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.ListDictionaryTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LDStoreOverwriteTest" />
+    </UnitTest>
+    <UnitTest name="LDLookupThrowsDictionaryNotFoundExceptionTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 4\tests\bin\debug\tests.dll" id="372d763a-4db8-c506-ed45-3a0f1efa9472">
+      <Execution id="8b048aec-27f2-4368-8f77-6acb38432be5" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 4/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DictionaryTests.ListDictionaryTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LDLookupThrowsDictionaryNotFoundExceptionTest" />
+    </UnitTest>
+    <UnitTest name="ChainedHTStoreAndLookupTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 4\tests\bin\debug\tests.dll" id="92a56d21-7b45-c992-2814-b0dff9b5ca00">
+      <Execution id="1371fc17-b457-4594-b6cb-4dbfe8c048fb" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 4/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.ChainedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChainedHTStoreAndLookupTest" />
+    </UnitTest>
+    <UnitTest name="OpenHTStoreAndLookupTest" storage="d:\documents\visual studio 2012\eecs-311 assignment 4\tests\bin\debug\tests.dll" id="a2571d66-825b-577c-328f-a9d27c85a47e">
+      <Execution id="32b53cb2-0d7f-423b-9cf9-6ed42b891a59" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS-311 Assignment 4/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.OpenAddressedHashtableTest, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OpenHTStoreAndLookupTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="d354d05d-5a14-6853-83aa-d07785f73845" executionId="d45d45fb-9cfb-422b-9fa7-efe530182812" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9568328b-2cfe-4270-7887-6945be150cfd" executionId="8b5ff62a-ab12-4869-8585-e72ce451ef67" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="372d763a-4db8-c506-ed45-3a0f1efa9472" executionId="8b048aec-27f2-4368-8f77-6acb38432be5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="edc32e9c-1d9d-f859-e9bd-6fe889c0416d" executionId="89c6aa14-594e-405e-8689-2908dac3895c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3173ec7c-8657-cbfa-7b23-73980f4cefc5" executionId="ed46d0a5-e124-4d01-bbf3-caaba18bacc8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77f92430-e15d-1805-2a5f-3bac8352d656" executionId="f3cefbec-b806-4560-9860-e4fe30ad70ae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b7f32841-9164-ff19-cb23-03474a5b68f2" executionId="85deff6f-b136-461e-9e74-bb1463fd24a0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9249a21f-90aa-8e95-edbf-7a2477a28138" executionId="c332c189-5c94-46f6-98ff-37849057512e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e574ba46-8e58-1576-7c9a-4a505f9c4e46" executionId="25d70f16-0300-47fc-9320-a3772b8bd48a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="92a56d21-7b45-c992-2814-b0dff9b5ca00" executionId="1371fc17-b457-4594-b6cb-4dbfe8c048fb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bb5e8172-c68a-e1e2-cf9f-78e491bcbf2e" executionId="b4befc62-8938-4bdc-a8ec-5f8afc415943" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="396f85f9-d3a1-d602-2d10-d3e11e085d0a" executionId="922d2a5d-b5c8-468d-8079-7f72bcf92f65" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f58fbbb2-c088-fc25-febb-1f85ba59f24c" executionId="c2553f0d-6b01-404a-919a-56fec1db5cab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c7ba8f42-0ec1-9118-d9bb-e81b4295e097" executionId="03fe7785-df1a-4065-b961-49f022d5f39c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d1ac431c-9b5d-62c2-4a87-7869fa50817e" executionId="d47760a5-9cd8-4ee1-bb6b-a4e0c779b954" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6acd591f-d4d7-26f6-6464-9cb81148900b" executionId="01f95b23-ac80-4712-b438-908fc0add831" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a2571d66-825b-577c-328f-a9d27c85a47e" executionId="32b53cb2-0d7f-423b-9cf9-6ed42b891a59" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e1e81ca3-826b-3286-bf15-706298b51fdd" executionId="80355165-528e-4bdb-b1d9-6afa29fc8893" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d45d45fb-9cfb-422b-9fa7-efe530182812" testId="d354d05d-5a14-6853-83aa-d07785f73845" testName="ListDictionaryConstructorTest" computerName="COREY-ASUS" duration="00:00:00.0085710" startTime="2013-05-09T21:19:28.7104082-05:00" endTime="2013-05-09T21:19:30.0554851-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d45d45fb-9cfb-422b-9fa7-efe530182812">
+    </UnitTestResult>
+    <UnitTestResult executionId="8b5ff62a-ab12-4869-8585-e72ce451ef67" testId="9568328b-2cfe-4270-7887-6945be150cfd" testName="LDStoreOverwriteTest" computerName="COREY-ASUS" duration="00:00:00.0007340" startTime="2013-05-09T21:19:30.0624855-05:00" endTime="2013-05-09T21:19:30.0704860-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b5ff62a-ab12-4869-8585-e72ce451ef67">
+    </UnitTestResult>
+    <UnitTestResult executionId="8b048aec-27f2-4368-8f77-6acb38432be5" testId="372d763a-4db8-c506-ed45-3a0f1efa9472" testName="LDLookupThrowsDictionaryNotFoundExceptionTest" computerName="COREY-ASUS" duration="00:00:04.3371305" startTime="2013-05-09T21:19:30.1004877-05:00" endTime="2013-05-09T21:19:34.4517366-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b048aec-27f2-4368-8f77-6acb38432be5">
+    </UnitTestResult>
+    <UnitTestResult executionId="89c6aa14-594e-405e-8689-2908dac3895c" testId="edc32e9c-1d9d-f859-e9bd-6fe889c0416d" testName="LDStoreAndLookupTest" computerName="COREY-ASUS" duration="00:00:00.0004515" startTime="2013-05-09T21:19:34.4557368-05:00" endTime="2013-05-09T21:19:34.4667374-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="89c6aa14-594e-405e-8689-2908dac3895c">
+    </UnitTestResult>
+    <UnitTestResult executionId="ed46d0a5-e124-4d01-bbf3-caaba18bacc8" testId="3173ec7c-8657-cbfa-7b23-73980f4cefc5" testName="LDCountTest" computerName="COREY-ASUS" duration="00:00:00.0010129" startTime="2013-05-09T21:19:34.4707377-05:00" endTime="2013-05-09T21:19:34.4777381-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ed46d0a5-e124-4d01-bbf3-caaba18bacc8">
+    </UnitTestResult>
+    <UnitTestResult executionId="f3cefbec-b806-4560-9860-e4fe30ad70ae" testId="77f92430-e15d-1805-2a5f-3bac8352d656" testName="ChainedHashtableParentTest" computerName="COREY-ASUS" duration="00:00:00.0004457" startTime="2013-05-09T21:19:34.4817383-05:00" endTime="2013-05-09T21:19:34.4877386-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f3cefbec-b806-4560-9860-e4fe30ad70ae">
+    </UnitTestResult>
+    <UnitTestResult executionId="85deff6f-b136-461e-9e74-bb1463fd24a0" testId="b7f32841-9164-ff19-cb23-03474a5b68f2" testName="ChainedHashtableConstructorTest" computerName="COREY-ASUS" duration="00:00:00.6144344" startTime="2013-05-09T21:19:34.4917389-05:00" endTime="2013-05-09T21:19:35.1117743-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="85deff6f-b136-461e-9e74-bb1463fd24a0">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Tests.ChainedHashtableTest.ChainedHashtableConstructorTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at HappyFunBlob.ChainedHashtable..ctor(Int32 size) in D:\Documents\Visual Studio 2012\EECS-311 Assignment 4\HappyFunBlob\ChainedHashtable.cs:line 12
+   at Tests.ChainedHashtableTest.ChainedHashtableConstructorTest() in D:\Documents\Visual Studio 2012\EECS-311 Assignment 4\Tests\ChainedHashtableTest.cs:line 50
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c332c189-5c94-46f6-98ff-37849057512e" testId="9249a21f-90aa-8e95-edbf-7a2477a28138" testName="ChainedHTStoreOverwriteTest" computerName="COREY-ASUS" duration="00:00:00.3949755" startTime="2013-05-09T21:19:35.1177747-05:00" endTime="2013-05-09T21:19:35.5187976-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c332c189-5c94-46f6-98ff-37849057512e">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Tests.ChainedHashtableTest.ChainedHTStoreOverwriteTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at HappyFunBlob.ChainedHashtable..ctor(Int32 size) in D:\Documents\Visual Studio 2012\EECS-311 Assignment 4\HappyFunBlob\ChainedHashtable.cs:line 12
+   at Tests.ChainedHashtableTest.ChainedHTStoreOverwriteTest() in D:\Documents\Visual Studio 2012\EECS-311 Assignment 4\Tests\ChainedHashtableTest.cs:line 59
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="25d70f16-0300-47fc-9320-a3772b8bd48a" testId="e574ba46-8e58-1576-7c9a-4a505f9c4e46" testName="ChainedHTLookupThrowsDictionaryNotFoundExceptionTest" computerName="COREY-ASUS" duration="00:00:00.4732249" startTime="2013-05-09T21:19:35.5217978-05:00" endTime="2013-05-09T21:19:36.0018252-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="25d70f16-0300-47fc-9320-a3772b8bd48a">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Tests.ChainedHashtableTest.ChainedHTLookupThrowsDictionaryNotFoundExceptionTest threw exception System.NotImplementedException, but exception HappyFunBlob.DictionaryKeyNotFoundException was expected. Exception message: System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at HappyFunBlob.ChainedHashtable..ctor(Int32 size) in D:\Documents\Visual Studio 2012\EECS-311 Assignment 4\HappyFunBlob\ChainedHashtable.cs:line 12
+   at Tests.ChainedHashtableTest.ChainedHTLookupThrowsDictionaryNotFoundExceptionTest() in D:\Documents\Visual Studio 2012\EECS-311 Assignment 4\Tests\ChainedHashtableTest.cs:line 75
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1371fc17-b457-4594-b6cb-4dbfe8c048fb" testId="92a56d21-7b45-c992-2814-b0dff9b5ca00" testName="ChainedHTStoreAndLookupTest" computerName="COREY-ASUS" duration="00:00:00.4750745" startTime="2013-05-09T21:19:36.0058255-05:00" endTime="2013-05-09T21:19:36.4868530-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1371fc17-b457-4594-b6cb-4dbfe8c048fb">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Tests.ChainedHashtableTest.ChainedHTStoreAndLookupTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at HappyFunBlob.ChainedHashtable..ctor(Int32 size) in D:\Documents\Visual Studio 2012\EECS-311 Assignment 4\HappyFunBlob\ChainedHashtable.cs:line 12
+   at Tests.ChainedHashtableTest.ChainedHTStoreAndLookupTest() in D:\Documents\Visual Studio 2012\EECS-311 Assignment 4\Tests\ChainedHashtableTest.cs:line 87
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b4befc62-8938-4bdc-a8ec-5f8afc415943" testId="bb5e8172-c68a-e1e2-cf9f-78e491bcbf2e" testName="ChainedHTCountTest" computerName="COREY-ASUS" duration="00:00:00.4813962" startTime="2013-05-09T21:19:36.4958535-05:00" endTime="2013-05-09T21:19:36.9848815-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b4befc62-8938-4bdc-a8ec-5f8afc415943">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Tests.ChainedHashtableTest.ChainedHTCountTest threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at HappyFunBlob.ChainedHashtable..ctor(Int32 size) in D:\Documents\Visual Studio 2012\EECS-311 Assignment 4\HappyFunBlob\ChainedHashtable.cs:line 12
+   at Tests.ChainedHashtableTest.ChainedHTCountTest() in D:\Documents\Visual Studio 2012\EECS-311 Assignment 4\Tests\ChainedHashtableTest.cs:line 106
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="922d2a5d-b5c8-468d-8079-7f72bcf92f65" testId="396f85f9-d3a1-d602-2d10-d3e11e085d0a" testName="OpenAddressedHashtableParentTest" computerName="COREY-ASUS" duration="00:00:00.0004283" startTime="2013-05-09T21:19:36.9888817-05:00" endTime="2013-05-09T21:19:36.9958821-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="922d2a5d-b5c8-468d-8079-7f72bcf92f65">
+    </UnitTestResult>
+    <UnitTestResult executionId="c2553f0d-6b01-404a-919a-56fec1db5cab" testId="f58fbbb2-c088-fc25-febb-1f85ba59f24c" testName="OpenAddressedHashtableConstructorTest" computerName="COREY-ASUS" duration="00:00:00.0002503" startTime="2013-05-09T21:19:37.0008824-05:00" endTime="2013-05-09T21:19:37.0078828-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c2553f0d-6b01-404a-919a-56fec1db5cab">
+    </UnitTestResult>
+    <UnitTestResult executionId="03fe7785-df1a-4065-b961-49f022d5f39c" testId="c7ba8f42-0ec1-9118-d9bb-e81b4295e097" testName="OpenHTStoreOverwriteTest" computerName="COREY-ASUS" duration="00:00:00.5990263" startTime="2013-05-09T21:19:37.0128831-05:00" endTime="2013-05-09T21:19:37.6179177-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="03fe7785-df1a-4065-b961-49f022d5f39c">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Tests.OpenAddressedHashtableTest.OpenHTStoreOverwriteTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at HappyFunBlob.OpenAddressedHashtable.Store(String name, Object value) in D:\Documents\Visual Studio 2012\EECS-311 Assignment 4\HappyFunBlob\OpenAddressedHashtable.cs:line 39
+   at Tests.OpenAddressedHashtableTest.OpenHTStoreOverwriteTest() in D:\Documents\Visual Studio 2012\EECS-311 Assignment 4\Tests\OpenAddressedHashtableTest.cs:line 60
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d47760a5-9cd8-4ee1-bb6b-a4e0c779b954" testId="d1ac431c-9b5d-62c2-4a87-7869fa50817e" testName="OpenHTLookupThrowsDictionaryNotFoundExceptionTest" computerName="COREY-ASUS" duration="00:00:00.7363706" startTime="2013-05-09T21:19:37.6219179-05:00" endTime="2013-05-09T21:19:38.3649604-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d47760a5-9cd8-4ee1-bb6b-a4e0c779b954">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Tests.OpenAddressedHashtableTest.OpenHTLookupThrowsDictionaryNotFoundExceptionTest threw exception System.IndexOutOfRangeException, but exception HappyFunBlob.DictionaryKeyNotFoundException was expected. Exception message: System.IndexOutOfRangeException: Index was outside the bounds of the array.</Message>
+          <StackTrace>    at HappyFunBlob.OpenAddressedHashtable.Lookup(String name) in D:\Documents\Visual Studio 2012\EECS-311 Assignment 4\HappyFunBlob\OpenAddressedHashtable.cs:line 52
+   at Tests.OpenAddressedHashtableTest.OpenHTLookupThrowsDictionaryNotFoundExceptionTest() in D:\Documents\Visual Studio 2012\EECS-311 Assignment 4\Tests\OpenAddressedHashtableTest.cs:line 75
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="01f95b23-ac80-4712-b438-908fc0add831" testId="6acd591f-d4d7-26f6-6464-9cb81148900b" testName="OpenHTOverflowThrowsHashtableFullExceptionTest" computerName="COREY-ASUS" duration="00:00:00.7422143" startTime="2013-05-09T21:19:38.3719608-05:00" endTime="2013-05-09T21:19:39.1210036-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="01f95b23-ac80-4712-b438-908fc0add831">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Tests.OpenAddressedHashtableTest.OpenHTOverflowThrowsHashtableFullExceptionTest threw exception System.NullReferenceException, but exception HappyFunBlob.HashtableFullException was expected. Exception message: System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at HappyFunBlob.OpenAddressedHashtable.Store(String name, Object value) in D:\Documents\Visual Studio 2012\EECS-311 Assignment 4\HappyFunBlob\OpenAddressedHashtable.cs:line 39
+   at Tests.OpenAddressedHashtableTest.OpenHTOverflowThrowsHashtableFullExceptionTest() in D:\Documents\Visual Studio 2012\EECS-311 Assignment 4\Tests\OpenAddressedHashtableTest.cs:line 88
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="32b53cb2-0d7f-423b-9cf9-6ed42b891a59" testId="a2571d66-825b-577c-328f-a9d27c85a47e" testName="OpenHTStoreAndLookupTest" computerName="COREY-ASUS" duration="00:00:00.5614462" startTime="2013-05-09T21:19:39.2210094-05:00" endTime="2013-05-09T21:19:39.7890418-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="32b53cb2-0d7f-423b-9cf9-6ed42b891a59">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Tests.OpenAddressedHashtableTest.OpenHTStoreAndLookupTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at HappyFunBlob.OpenAddressedHashtable.Store(String name, Object value) in D:\Documents\Visual Studio 2012\EECS-311 Assignment 4\HappyFunBlob\OpenAddressedHashtable.cs:line 39
+   at Tests.OpenAddressedHashtableTest.OpenHTStoreAndLookupTest() in D:\Documents\Visual Studio 2012\EECS-311 Assignment 4\Tests\OpenAddressedHashtableTest.cs:line 105
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="80355165-528e-4bdb-b1d9-6afa29fc8893" testId="e1e81ca3-826b-3286-bf15-706298b51fdd" testName="OpenHTCountTest" computerName="COREY-ASUS" duration="00:00:00.5756410" startTime="2013-05-09T21:19:39.7940421-05:00" endTime="2013-05-09T21:19:40.3760754-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="80355165-528e-4bdb-b1d9-6afa29fc8893">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Tests.OpenAddressedHashtableTest.OpenHTCountTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at HappyFunBlob.OpenAddressedHashtable.Store(String name, Object value) in D:\Documents\Visual Studio 2012\EECS-311 Assignment 4\HappyFunBlob\OpenAddressedHashtable.cs:line 39
+   at Tests.OpenAddressedHashtableTest.OpenHTCountTest() in D:\Documents\Visual Studio 2012\EECS-311 Assignment 4\Tests\OpenAddressedHashtableTest.cs:line 122
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

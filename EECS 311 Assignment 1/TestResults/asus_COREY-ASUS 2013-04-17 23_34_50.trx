@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="38dd5da5-29a4-4756-8f4d-fdc948a67937" name="asus@COREY-ASUS 2013-04-17 23:34:50" runUser="COREY-ASUS\asus" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local Test Run" id="3a991a10-770d-48f2-813a-8bc52276207a">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="asus_COREY-ASUS 2013-04-17 23_34_50">
+      <DeploymentItem filename="D:\Documents\Visual Studio 2012\EECS 311 Assignment 1\Assignment 1\bin\Debug\Assignment 1.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-04-17T23:34:50.2373043-05:00" queuing="2013-04-17T23:34:56.1516426-05:00" start="2013-04-17T23:34:56.4836616-05:00" finish="2013-04-17T23:35:42.7883100-05:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="22" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="21" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="COREY-ASUS" outcome="Error" timestamp="2013-04-17T23:35:42.7803096-05:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ConstructorCreatesNonFullQueueTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="1fd90ceb-f0d0-1e68-b554-ad1d4ba25e72">
+      <Execution id="0295c929-e12a-4068-ad8a-e7bfa1060637" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.ArrayQueueTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConstructorCreatesNonFullQueueTest" />
+    </UnitTest>
+    <UnitTest name="ConstructorCreatesEmptyQueueTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="1cb0a1e2-2261-0d1a-ef0f-bcef8b0ea15f">
+      <Execution id="e4e9ba52-0b08-41f9-b138-90746edbcede" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.ArrayQueueTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConstructorCreatesEmptyQueueTest" />
+    </UnitTest>
+    <UnitTest name="DequeueOnEmptyQueueThrowsQueueEmptyExceptionTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="72df603b-478e-691e-c9b9-cdc0bacfe212">
+      <Execution id="57759a9a-7750-46df-b60f-37126b8d9d72" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.LinkedListQueueTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DequeueOnEmptyQueueThrowsQueueEmptyExceptionTest" />
+    </UnitTest>
+    <UnitTest name="ConstructorCreatesEmptyQueueTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="13d9bdf6-60d6-7932-e7f8-0dff2188658f">
+      <Execution id="a1ffd050-90e0-412c-baca-d6bc20fbebb2" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.DequeTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConstructorCreatesEmptyQueueTest" />
+    </UnitTest>
+    <UnitTest name="NonEmptyQueueWrittenFromFrontReadsNotEmptyTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="a8009935-515f-8ff9-6f0b-05a4894bf174">
+      <Execution id="be4100a3-8286-4503-b5d8-fa06fd7ba083" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.DequeTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NonEmptyQueueWrittenFromFrontReadsNotEmptyTest" />
+    </UnitTest>
+    <UnitTest name="EnqueueToFullQueueThrowsQueueFullExceptionTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="7c46bf1f-4cc7-0ba7-67e8-52f5cd3c9713">
+      <Execution id="3f024cc5-9025-4ea6-8250-07d62f2cfdc2" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.ArrayQueueTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EnqueueToFullQueueThrowsQueueFullExceptionTest" />
+    </UnitTest>
+    <UnitTest name="DataOrderPreservedTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="373800ba-b828-3141-13f3-14ad92fca915">
+      <Execution id="62899440-737a-4079-9e6b-57f3c8636ae5" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.LinkedListQueueTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DataOrderPreservedTest" />
+    </UnitTest>
+    <UnitTest name="NonEmptyQueueReadsNotEmptyTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="091f89d3-0ed1-30d7-5c4b-fdd3fa0faa90">
+      <Execution id="d47063dc-a671-4c63-9c4a-a4c550f2f1c2" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.LinkedListQueueTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NonEmptyQueueReadsNotEmptyTest" />
+    </UnitTest>
+    <UnitTest name="DataOrderPreservedTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="f013084a-d4ea-a9f8-357a-4047b1176ab2">
+      <Execution id="98d38991-b1e7-436d-9c7b-75d098aa4f9b" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.ArrayQueueTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DataOrderPreservedTest" />
+    </UnitTest>
+    <UnitTest name="RemoveFrontOnEmptyQueueThrowsQueueEmptyExceptionTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="03a1b3a6-dd92-af83-792a-b3caa1cfc64e">
+      <Execution id="549bf9e8-0fb0-4c7e-ba36-18266899594c" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.DequeTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RemoveFrontOnEmptyQueueThrowsQueueEmptyExceptionTest" />
+    </UnitTest>
+    <UnitTest name="DequeueOnEmptyQueueThrowsQueueEmptyExceptionTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="282e02e9-49c3-e1d4-f2ea-59cee629a781">
+      <Execution id="aa0f546f-7dfd-451a-86b4-eeb99a167023" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.ArrayQueueTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DequeueOnEmptyQueueThrowsQueueEmptyExceptionTest" />
+    </UnitTest>
+    <UnitTest name="ConstructorCreatesNonFullQueueTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="3d821c1f-4535-cc22-0441-2178d0438ec5">
+      <Execution id="ad2f0581-8c20-4c20-b2c8-0ab6cb7e96f2" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.LinkedListQueueTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConstructorCreatesNonFullQueueTest" />
+    </UnitTest>
+    <UnitTest name="CountTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="97365ef3-436d-9c9d-7432-5e36bdfa5b17">
+      <Execution id="965aed81-a536-4e5f-9431-d2c7f0725780" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.LinkedListQueueTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CountTest" />
+    </UnitTest>
+    <UnitTest name="NonEmptyQueueReadsNotEmptyTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="19cca519-f5a5-3da9-b116-a67ee263cbb4">
+      <Execution id="084c0df8-7ecf-4710-ae1b-2d75e718df91" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.ArrayQueueTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NonEmptyQueueReadsNotEmptyTest" />
+    </UnitTest>
+    <UnitTest name="ConstructorCreatesEmptyQueueTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="fd6c20eb-525d-6a10-f7aa-e03ceedfe16f">
+      <Execution id="430ae63b-9244-4e00-83b3-ef1f19032c44" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.LinkedListQueueTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConstructorCreatesEmptyQueueTest" />
+    </UnitTest>
+    <UnitTest name="NonEmptyQueueReadsNotEmptyTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="49e4a240-89e9-7d60-9a13-7ab7ec646d86">
+      <Execution id="c820bc9e-ad94-4a2e-8bd4-819afb1a25d1" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.DequeTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NonEmptyQueueReadsNotEmptyTest" />
+    </UnitTest>
+    <UnitTest name="DataOrderPreservedWrittenEndwardTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="066e5acd-d732-0380-d030-80aabd1a46ae">
+      <Execution id="997bf3d2-714e-498e-81fa-5741ea29369d" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.DequeTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DataOrderPreservedWrittenEndwardTest" />
+    </UnitTest>
+    <UnitTest name="RemoveEndOnEmptyQueueThrowsQueueEmptyExceptionTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="7d7af601-d5b8-8473-4e8c-1728efc4ea22">
+      <Execution id="9e8f9b5d-23e6-44fc-8492-bd20e1eacd27" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.DequeTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RemoveEndOnEmptyQueueThrowsQueueEmptyExceptionTest" />
+    </UnitTest>
+    <UnitTest name="QueueEventuallyFillsText" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="db91ed9e-0902-7231-b42b-88381c85adcd">
+      <Execution id="0892384f-014e-4a52-bda6-c4618a6ea662" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.ArrayQueueTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="QueueEventuallyFillsText" />
+    </UnitTest>
+    <UnitTest name="DataOrderPreservedTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="cbfdef17-e7f3-e7a4-92ed-bd0caaf2671c">
+      <Execution id="e26b1499-cb3a-4df2-9404-8a057cd4a342" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.DequeTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DataOrderPreservedTest" />
+    </UnitTest>
+    <UnitTest name="CountTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="043f3c5a-7887-abdc-d249-173d4b7b8591">
+      <Execution id="d7052d0c-7e18-42c5-84b3-e90e940a81bc" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.ArrayQueueTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CountTest" />
+    </UnitTest>
+    <UnitTest name="CountTest" storage="d:\documents\visual studio 2012\eecs 311 assignment 1\queuetests\bin\debug\queuetests.dll" id="10d73257-6859-e940-a43d-85dc5f42184c">
+      <Execution id="b1a0cdb9-1ccf-4b1d-b8aa-8c22fd7d3de7" />
+      <TestMethod codeBase="D:/Documents/Visual Studio 2012/EECS 311 Assignment 1/QueueTests/bin/Debug/QueueTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QueueTests.DequeTest, QueueTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CountTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="13d9bdf6-60d6-7932-e7f8-0dff2188658f" executionId="a1ffd050-90e0-412c-baca-d6bc20fbebb2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="49e4a240-89e9-7d60-9a13-7ab7ec646d86" executionId="c820bc9e-ad94-4a2e-8bd4-819afb1a25d1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="10d73257-6859-e940-a43d-85dc5f42184c" executionId="b1a0cdb9-1ccf-4b1d-b8aa-8c22fd7d3de7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cbfdef17-e7f3-e7a4-92ed-bd0caaf2671c" executionId="e26b1499-cb3a-4df2-9404-8a057cd4a342" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="03a1b3a6-dd92-af83-792a-b3caa1cfc64e" executionId="549bf9e8-0fb0-4c7e-ba36-18266899594c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a8009935-515f-8ff9-6f0b-05a4894bf174" executionId="be4100a3-8286-4503-b5d8-fa06fd7ba083" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="066e5acd-d732-0380-d030-80aabd1a46ae" executionId="997bf3d2-714e-498e-81fa-5741ea29369d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7d7af601-d5b8-8473-4e8c-1728efc4ea22" executionId="9e8f9b5d-23e6-44fc-8492-bd20e1eacd27" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fd6c20eb-525d-6a10-f7aa-e03ceedfe16f" executionId="430ae63b-9244-4e00-83b3-ef1f19032c44" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3d821c1f-4535-cc22-0441-2178d0438ec5" executionId="ad2f0581-8c20-4c20-b2c8-0ab6cb7e96f2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="091f89d3-0ed1-30d7-5c4b-fdd3fa0faa90" executionId="d47063dc-a671-4c63-9c4a-a4c550f2f1c2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="97365ef3-436d-9c9d-7432-5e36bdfa5b17" executionId="965aed81-a536-4e5f-9431-d2c7f0725780" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="373800ba-b828-3141-13f3-14ad92fca915" executionId="62899440-737a-4079-9e6b-57f3c8636ae5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="72df603b-478e-691e-c9b9-cdc0bacfe212" executionId="57759a9a-7750-46df-b60f-37126b8d9d72" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1cb0a1e2-2261-0d1a-ef0f-bcef8b0ea15f" executionId="e4e9ba52-0b08-41f9-b138-90746edbcede" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1fd90ceb-f0d0-1e68-b554-ad1d4ba25e72" executionId="0295c929-e12a-4068-ad8a-e7bfa1060637" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="db91ed9e-0902-7231-b42b-88381c85adcd" executionId="0892384f-014e-4a52-bda6-c4618a6ea662" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="19cca519-f5a5-3da9-b116-a67ee263cbb4" executionId="084c0df8-7ecf-4710-ae1b-2d75e718df91" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7c46bf1f-4cc7-0ba7-67e8-52f5cd3c9713" executionId="3f024cc5-9025-4ea6-8250-07d62f2cfdc2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="043f3c5a-7887-abdc-d249-173d4b7b8591" executionId="d7052d0c-7e18-42c5-84b3-e90e940a81bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f013084a-d4ea-a9f8-357a-4047b1176ab2" executionId="98d38991-b1e7-436d-9c7b-75d098aa4f9b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="282e02e9-49c3-e1d4-f2ea-59cee629a781" executionId="aa0f546f-7dfd-451a-86b4-eeb99a167023" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a1ffd050-90e0-412c-baca-d6bc20fbebb2" testId="13d9bdf6-60d6-7932-e7f8-0dff2188658f" testName="ConstructorCreatesEmptyQueueTest" computerName="COREY-ASUS" duration="00:00:46.1366389" startTime="2013-04-17T23:34:56.6506711-05:00" endTime="2013-04-17T23:35:42.7873100-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a1ffd050-90e0-412c-baca-d6bc20fbebb2">
+    </UnitTestResult>
+    <UnitTestResult executionId="c820bc9e-ad94-4a2e-8bd4-819afb1a25d1" testId="49e4a240-89e9-7d60-9a13-7ab7ec646d86" testName="NonEmptyQueueReadsNotEmptyTest" computerName="COREY-ASUS" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c820bc9e-ad94-4a2e-8bd4-819afb1a25d1">
+    </UnitTestResult>
+    <UnitTestResult executionId="b1a0cdb9-1ccf-4b1d-b8aa-8c22fd7d3de7" testId="10d73257-6859-e940-a43d-85dc5f42184c" testName="CountTest" computerName="COREY-ASUS" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b1a0cdb9-1ccf-4b1d-b8aa-8c22fd7d3de7">
+    </UnitTestResult>
+    <UnitTestResult executionId="e26b1499-cb3a-4df2-9404-8a057cd4a342" testId="cbfdef17-e7f3-e7a4-92ed-bd0caaf2671c" testName="DataOrderPreservedTest" computerName="COREY-ASUS" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e26b1499-cb3a-4df2-9404-8a057cd4a342">
+    </UnitTestResult>
+    <UnitTestResult executionId="549bf9e8-0fb0-4c7e-ba36-18266899594c" testId="03a1b3a6-dd92-af83-792a-b3caa1cfc64e" testName="RemoveFrontOnEmptyQueueThrowsQueueEmptyExceptionTest" computerName="COREY-ASUS" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="549bf9e8-0fb0-4c7e-ba36-18266899594c">
+    </UnitTestResult>
+    <UnitTestResult executionId="be4100a3-8286-4503-b5d8-fa06fd7ba083" testId="a8009935-515f-8ff9-6f0b-05a4894bf174" testName="NonEmptyQueueWrittenFromFrontReadsNotEmptyTest" computerName="COREY-ASUS" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="be4100a3-8286-4503-b5d8-fa06fd7ba083">
+    </UnitTestResult>
+    <UnitTestResult executionId="997bf3d2-714e-498e-81fa-5741ea29369d" testId="066e5acd-d732-0380-d030-80aabd1a46ae" testName="DataOrderPreservedWrittenEndwardTest" computerName="COREY-ASUS" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="997bf3d2-714e-498e-81fa-5741ea29369d">
+    </UnitTestResult>
+    <UnitTestResult executionId="9e8f9b5d-23e6-44fc-8492-bd20e1eacd27" testId="7d7af601-d5b8-8473-4e8c-1728efc4ea22" testName="RemoveEndOnEmptyQueueThrowsQueueEmptyExceptionTest" computerName="COREY-ASUS" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9e8f9b5d-23e6-44fc-8492-bd20e1eacd27">
+    </UnitTestResult>
+    <UnitTestResult executionId="430ae63b-9244-4e00-83b3-ef1f19032c44" testId="fd6c20eb-525d-6a10-f7aa-e03ceedfe16f" testName="ConstructorCreatesEmptyQueueTest" computerName="COREY-ASUS" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="430ae63b-9244-4e00-83b3-ef1f19032c44">
+    </UnitTestResult>
+    <UnitTestResult executionId="ad2f0581-8c20-4c20-b2c8-0ab6cb7e96f2" testId="3d821c1f-4535-cc22-0441-2178d0438ec5" testName="ConstructorCreatesNonFullQueueTest" computerName="COREY-ASUS" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ad2f0581-8c20-4c20-b2c8-0ab6cb7e96f2">
+    </UnitTestResult>
+    <UnitTestResult executionId="d47063dc-a671-4c63-9c4a-a4c550f2f1c2" testId="091f89d3-0ed1-30d7-5c4b-fdd3fa0faa90" testName="NonEmptyQueueReadsNotEmptyTest" computerName="COREY-ASUS" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d47063dc-a671-4c63-9c4a-a4c550f2f1c2">
+    </UnitTestResult>
+    <UnitTestResult executionId="965aed81-a536-4e5f-9431-d2c7f0725780" testId="97365ef3-436d-9c9d-7432-5e36bdfa5b17" testName="CountTest" computerName="COREY-ASUS" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="965aed81-a536-4e5f-9431-d2c7f0725780">
+    </UnitTestResult>
+    <UnitTestResult executionId="62899440-737a-4079-9e6b-57f3c8636ae5" testId="373800ba-b828-3141-13f3-14ad92fca915" testName="DataOrderPreservedTest" computerName="COREY-ASUS" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62899440-737a-4079-9e6b-57f3c8636ae5">
+    </UnitTestResult>
+    <UnitTestResult executionId="57759a9a-7750-46df-b60f-37126b8d9d72" testId="72df603b-478e-691e-c9b9-cdc0bacfe212" testName="DequeueOnEmptyQueueThrowsQueueEmptyExceptionTest" computerName="COREY-ASUS" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="57759a9a-7750-46df-b60f-37126b8d9d72">
+    </UnitTestResult>
+    <UnitTestResult executionId="e4e9ba52-0b08-41f9-b138-90746edbcede" testId="1cb0a1e2-2261-0d1a-ef0f-bcef8b0ea15f" testName="ConstructorCreatesEmptyQueueTest" computerName="COREY-ASUS" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e4e9ba52-0b08-41f9-b138-90746edbcede">
+    </UnitTestResult>
+    <UnitTestResult executionId="0295c929-e12a-4068-ad8a-e7bfa1060637" testId="1fd90ceb-f0d0-1e68-b554-ad1d4ba25e72" testName="ConstructorCreatesNonFullQueueTest" computerName="COREY-ASUS" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0295c929-e12a-4068-ad8a-e7bfa1060637">
+    </UnitTestResult>
+    <UnitTestResult executionId="0892384f-014e-4a52-bda6-c4618a6ea662" testId="db91ed9e-0902-7231-b42b-88381c85adcd" testName="QueueEventuallyFillsText" computerName="COREY-ASUS" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0892384f-014e-4a52-bda6-c4618a6ea662">
+    </UnitTestResult>
+    <UnitTestResult executionId="084c0df8-7ecf-4710-ae1b-2d75e718df91" testId="19cca519-f5a5-3da9-b116-a67ee263cbb4" testName="NonEmptyQueueReadsNotEmptyTest" computerName="COREY-ASUS" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="084c0df8-7ecf-4710-ae1b-2d75e718df91">
+    </UnitTestResult>
+    <UnitTestResult executionId="3f024cc5-9025-4ea6-8250-07d62f2cfdc2" testId="7c46bf1f-4cc7-0ba7-67e8-52f5cd3c9713" testName="EnqueueToFullQueueThrowsQueueFullExceptionTest" computerName="COREY-ASUS" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3f024cc5-9025-4ea6-8250-07d62f2cfdc2">
+    </UnitTestResult>
+    <UnitTestResult executionId="d7052d0c-7e18-42c5-84b3-e90e940a81bc" testId="043f3c5a-7887-abdc-d249-173d4b7b8591" testName="CountTest" computerName="COREY-ASUS" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d7052d0c-7e18-42c5-84b3-e90e940a81bc">
+    </UnitTestResult>
+    <UnitTestResult executionId="98d38991-b1e7-436d-9c7b-75d098aa4f9b" testId="f013084a-d4ea-a9f8-357a-4047b1176ab2" testName="DataOrderPreservedTest" computerName="COREY-ASUS" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="98d38991-b1e7-436d-9c7b-75d098aa4f9b">
+    </UnitTestResult>
+    <UnitTestResult executionId="aa0f546f-7dfd-451a-86b4-eeb99a167023" testId="282e02e9-49c3-e1d4-f2ea-59cee629a781" testName="DequeueOnEmptyQueueThrowsQueueEmptyExceptionTest" computerName="COREY-ASUS" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aa0f546f-7dfd-451a-86b4-eeb99a167023">
+    </UnitTestResult>
+  </Results>
+</TestRun>

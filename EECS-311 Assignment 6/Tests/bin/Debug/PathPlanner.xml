@@ -1,0 +1,233 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PathPlanner</name>
+    </assembly>
+    <members>
+        <member name="T:PathPlanner.UndirectedGraph">
+            <summary>
+            Represents a graph to search
+            </summary>
+        </member>
+        <member name="M:PathPlanner.UndirectedGraph.#ctor(PathPlanner.Node[])">
+            <summary>
+            Creates a new graph with the specified nodes.
+            </summary>
+        </member>
+        <member name="F:PathPlanner.UndirectedGraph.Nodes">
+            <summary>
+            The nodes of the graph
+            </summary>
+        </member>
+        <member name="M:PathPlanner.UndirectedGraph.FindPath(PathPlanner.Node,PathPlanner.Node)">
+            <summary>
+            Finds the shortest path between the specified nodes and returns it as a list of nodes.
+            </summary>
+            <param name="start">The starting node for the path</param>
+            <param name="end">The ending node for the path</param>
+            <returns>The path, represented as a list of nodes beginning with start and ending with end.</returns>
+        </member>
+        <member name="M:PathPlanner.UndirectedGraph.FromSpreadsheet(System.String)">
+            <summary>
+            Reads a graph from a spreadsheet.
+            </summary>
+        </member>
+        <member name="M:PathPlanner.UndirectedGraph.FindNode(System.String)">
+            <summary>
+            Finds the node with a given name.
+            </summary>
+            <param name="nodeName">Name to search for</param>
+            <returns>The node with that name, or null if there is no such node.</returns>
+        </member>
+        <member name="M:PathPlanner.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="F:PathPlanner.Form1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:PathPlanner.Form1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:PathPlanner.Form1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:PathPlanner.Node">
+            <summary>
+            Represents a graph node
+            </summary>
+        </member>
+        <member name="M:PathPlanner.Node.#ctor(System.String,System.Drawing.PointF)">
+            <summary>
+            Create a new graph node with no edges.
+            </summary>
+        </member>
+        <member name="F:PathPlanner.Node.Edges">
+            <summary>
+            Edges of the node
+            </summary>
+        </member>
+        <member name="M:PathPlanner.Node.AddEdge(PathPlanner.Node)">
+            <summary>
+            Creates an edge between this node and another node.
+            Its cost is set to the distance between their screen positions.
+            </summary>
+        </member>
+        <member name="P:PathPlanner.Node.Name">
+            <summary>
+            The name of the node, for debugging and user interface purposes.
+            </summary>
+        </member>
+        <member name="P:PathPlanner.Node.Position">
+            <summary>
+            Screen position of the node.
+            </summary>
+        </member>
+        <member name="P:PathPlanner.Node.QueuePosition">
+            <summary>
+            Position of this node in whatever priority queue it's being held in.
+            This is provided to allow the BinaryHeap code to quickly find the node in the
+            heap in its arrays when doing DecreaseKey.
+            </summary>
+        </member>
+        <member name="P:PathPlanner.Node.NodeCost">
+            <summary>
+            Estimated cost of getting to the node from the start point.
+            </summary>
+        </member>
+        <member name="T:PathPlanner.UndirectedEdge">
+            <summary>
+            Represents a weighted edge between two nodes, A and B.
+            </summary>
+        </member>
+        <member name="M:PathPlanner.UndirectedEdge.#ctor(PathPlanner.Node,PathPlanner.Node,System.Double)">
+            <summary>
+            Creates a new edge object.  Does not add it to the node list of either node.
+            </summary>
+        </member>
+        <member name="F:PathPlanner.UndirectedEdge.A">
+            <summary>
+            One of the two nodes this edge links.
+            </summary>
+        </member>
+        <member name="F:PathPlanner.UndirectedEdge.B">
+            <summary>
+            The other node (besides A) this edge links.
+            </summary>
+        </member>
+        <member name="F:PathPlanner.UndirectedEdge.Cost">
+            <summary>
+            The cost (length) of the edge.
+            </summary>
+        </member>
+        <member name="M:PathPlanner.UndirectedEdge.OtherNode(PathPlanner.Node)">
+            <summary>
+            Returns whichever node this node links to the specified node.
+            I.e. it returns the "other" node than this one.
+            </summary>
+            <param name="n">One of the two nodes in this edge</param>
+            <returns>The other node that isn't n.</returns>
+        </member>
+        <member name="T:PathPlanner.BinaryHeap">
+            <summary>
+            A min-type priority queue of Nodes
+            </summary>
+        </member>
+        <member name="M:PathPlanner.BinaryHeap.#ctor(System.Int32)">
+            <summary>
+            Creates a new, empty priority queue with the specified capacity.
+            </summary>
+            <param name="capacity">The maximum number of nodes that will be stored in the queue.</param>
+        </member>
+        <member name="M:PathPlanner.BinaryHeap.Add(PathPlanner.Node,System.Double)">
+            <summary>
+            Adds an item to the queue.  Is position is determined by its priority relative to the other items in the queue.
+            This is called HeapInsert in the lecture slides.
+            </summary>
+            <param name="item">Item to add</param>
+            <param name="priority">Priority value to attach to this item.  Note: this is a min heap, so lower priority values come out first.</param>
+        </member>
+        <member name="M:PathPlanner.BinaryHeap.ExtractMin">
+            <summary>
+            Extracts the item in the queue with the minimal priority value.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PathPlanner.BinaryHeap.DecreasePriority(PathPlanner.Node,System.Double)">
+            <summary>
+            Reduces the priority of a node already in the queue.
+            Called DecreaseKey in the lecture slides
+            </summary>
+        </member>
+        <member name="M:PathPlanner.BinaryHeap.MoveUp(System.Int32)">
+            <summary>
+            Moves the node at the specified position upward, it it violates the Heap Property.
+            This is the while loop from the HeapInsert procedure in the slides.
+            </summary>
+            <param name="position"></param>
+        </member>
+        <member name="M:PathPlanner.BinaryHeap.MoveDown(System.Int32)">
+            <summary>
+            Moves the node at the specified position down, if it violates the Heap Property
+            Called "Heapify" in the lecture notes.
+            </summary>
+            <param name="position"></param>
+        </member>
+        <member name="M:PathPlanner.BinaryHeap.Swap(System.Int32,System.Int32)">
+            <summary>
+            Swaps the nodes at the respective positions in the heap
+            Updates the nodes' QueuePosition properties accordingly.
+            </summary>
+        </member>
+        <member name="M:PathPlanner.BinaryHeap.Parent(System.Int32)">
+            <summary>
+            Gives the position of a node's parent, the node's position in the queue.
+            </summary>
+        </member>
+        <member name="M:PathPlanner.BinaryHeap.LeftChild(System.Int32)">
+            <summary>
+            Returns the position of a node's left child, given the node's position.
+            </summary>
+        </member>
+        <member name="M:PathPlanner.BinaryHeap.RightChild(System.Int32)">
+            <summary>
+            Returns the position of a node's right child, given the node's position.
+            </summary>
+        </member>
+        <member name="M:PathPlanner.BinaryHeap.TestHeapValidity">
+            <summary>
+            Checks all entries in the heap to see if they satisfy the heap property.
+            </summary>
+        </member>
+        <member name="P:PathPlanner.BinaryHeap.Count">
+            <summary>
+            Number of items waiting in queue
+            </summary>
+        </member>
+        <member name="T:PathPlanner.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:PathPlanner.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:PathPlanner.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>
